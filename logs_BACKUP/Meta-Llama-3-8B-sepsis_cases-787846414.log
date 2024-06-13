@@ -1,0 +1,283 @@
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/datasets/skaltenp/sepsis_cases HTTP/1.1" 200 842
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/skaltenp/sepsis_cases/skaltenp/sepsis_cases.py HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/datasets/skaltenp/sepsis_cases HTTP/1.1" 200 842
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /datasets/skaltenp/sepsis_cases/resolve/aa230db79dc7286e500f0713ec25fde5698347eb/README.md HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /datasets/skaltenp/sepsis_cases/resolve/aa230db79dc7286e500f0713ec25fde5698347eb/.huggingface.yaml HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datasets-server.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://datasets-server.huggingface.co:443 "GET /info?dataset=skaltenp/sepsis_cases HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/datasets/skaltenp/sepsis_cases/revision/aa230db79dc7286e500f0713ec25fde5698347eb HTTP/1.1" 200 842
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/datasets/skaltenp/sepsis_cases/tree/aa230db79dc7286e500f0713ec25fde5698347eb?recursive=False&expand=False HTTP/1.1" 200 290
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "POST /api/datasets/skaltenp/sepsis_cases/paths-info/aa230db79dc7286e500f0713ec25fde5698347eb HTTP/1.1" 200 217
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/datasets/skaltenp/sepsis_cases/tree/aa230db79dc7286e500f0713ec25fde5698347eb/data?recursive=False&expand=False HTTP/1.1" 200 238
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/datasets/skaltenp/sepsis_cases/revision/aa230db79dc7286e500f0713ec25fde5698347eb HTTP/1.1" 200 842
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /datasets/skaltenp/sepsis_cases/resolve/aa230db79dc7286e500f0713ec25fde5698347eb/dataset_infos.json HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "POST /api/datasets/skaltenp/sepsis_cases/paths-info/aa230db79dc7286e500f0713ec25fde5698347eb HTTP/1.1" 200 217
+DEBUG:filelock:Attempting to acquire lock 139678695710288 on /home/sascha/.cache/huggingface/datasets/_home_sascha_.cache_huggingface_datasets_skaltenp___sepsis_cases_default_0.0.0_aa230db79dc7286e500f0713ec25fde5698347eb.lock
+DEBUG:filelock:Lock 139678695710288 acquired on /home/sascha/.cache/huggingface/datasets/_home_sascha_.cache_huggingface_datasets_skaltenp___sepsis_cases_default_0.0.0_aa230db79dc7286e500f0713ec25fde5698347eb.lock
+DEBUG:fsspec.local:open file: /home/sascha/.cache/huggingface/datasets/skaltenp___sepsis_cases/default/0.0.0/aa230db79dc7286e500f0713ec25fde5698347eb/dataset_info.json
+DEBUG:filelock:Attempting to release lock 139678695710288 on /home/sascha/.cache/huggingface/datasets/_home_sascha_.cache_huggingface_datasets_skaltenp___sepsis_cases_default_0.0.0_aa230db79dc7286e500f0713ec25fde5698347eb.lock
+DEBUG:filelock:Lock 139678695710288 released on /home/sascha/.cache/huggingface/datasets/_home_sascha_.cache_huggingface_datasets_skaltenp___sepsis_cases_default_0.0.0_aa230db79dc7286e500f0713ec25fde5698347eb.lock
+DEBUG:filelock:Attempting to acquire lock 139680420900304 on /home/sascha/.cache/huggingface/datasets/skaltenp___sepsis_cases/default/0.0.0/aa230db79dc7286e500f0713ec25fde5698347eb_builder.lock
+DEBUG:filelock:Lock 139680420900304 acquired on /home/sascha/.cache/huggingface/datasets/skaltenp___sepsis_cases/default/0.0.0/aa230db79dc7286e500f0713ec25fde5698347eb_builder.lock
+DEBUG:fsspec.local:open file: /home/sascha/.cache/huggingface/datasets/skaltenp___sepsis_cases/default/0.0.0/aa230db79dc7286e500f0713ec25fde5698347eb/dataset_info.json
+DEBUG:filelock:Attempting to release lock 139680420900304 on /home/sascha/.cache/huggingface/datasets/skaltenp___sepsis_cases/default/0.0.0/aa230db79dc7286e500f0713ec25fde5698347eb_builder.lock
+DEBUG:filelock:Lock 139680420900304 released on /home/sascha/.cache/huggingface/datasets/skaltenp___sepsis_cases/default/0.0.0/aa230db79dc7286e500f0713ec25fde5698347eb_builder.lock
+DEBUG:fsspec.local:open file: /home/sascha/.cache/huggingface/datasets/skaltenp___sepsis_cases/default/0.0.0/aa230db79dc7286e500f0713ec25fde5698347eb/tmprrsvg78y
+DEBUG:fsspec.local:open file: /home/sascha/.cache/huggingface/datasets/skaltenp___sepsis_cases/default/0.0.0/aa230db79dc7286e500f0713ec25fde5698347eb/tmphe2puttj
+DEBUG:fsspec.local:open file: /home/sascha/.cache/huggingface/datasets/skaltenp___sepsis_cases/default/0.0.0/aa230db79dc7286e500f0713ec25fde5698347eb/tmpu_06u6ry
+DEBUG:fsspec.local:open file: /home/sascha/.cache/huggingface/datasets/skaltenp___sepsis_cases/default/0.0.0/aa230db79dc7286e500f0713ec25fde5698347eb/tmp_7rh4awd
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /skaltenp/Meta-Llama-3-8B-sepsis_cases-787846414/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 139678695770448 on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/073ef297d078c1c1b21421850a0a4433b78a9f79.lock
+DEBUG:filelock:Lock 139678695770448 acquired on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/073ef297d078c1c1b21421850a0a4433b78a9f79.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /skaltenp/Meta-Llama-3-8B-sepsis_cases-787846414/resolve/main/tokenizer_config.json HTTP/1.1" 200 50600
+DEBUG:filelock:Attempting to release lock 139678695770448 on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/073ef297d078c1c1b21421850a0a4433b78a9f79.lock
+DEBUG:filelock:Lock 139678695770448 released on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/073ef297d078c1c1b21421850a0a4433b78a9f79.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /skaltenp/Meta-Llama-3-8B-sepsis_cases-787846414/resolve/main/tokenizer.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 139678665071632 on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/b197f72effb9d5ed16ee0f5663e11e4cfac2ba62.lock
+DEBUG:filelock:Lock 139678665071632 acquired on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/b197f72effb9d5ed16ee0f5663e11e4cfac2ba62.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /skaltenp/Meta-Llama-3-8B-sepsis_cases-787846414/resolve/main/tokenizer.json HTTP/1.1" 200 9085698
+DEBUG:filelock:Attempting to release lock 139678665071632 on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/b197f72effb9d5ed16ee0f5663e11e4cfac2ba62.lock
+DEBUG:filelock:Lock 139678665071632 released on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/b197f72effb9d5ed16ee0f5663e11e4cfac2ba62.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /skaltenp/Meta-Llama-3-8B-sepsis_cases-787846414/resolve/main/added_tokens.json HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /skaltenp/Meta-Llama-3-8B-sepsis_cases-787846414/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 139678683026128 on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/04829afa78a2d2df203ac846968db37269b01f7f.lock
+DEBUG:filelock:Lock 139678683026128 acquired on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/04829afa78a2d2df203ac846968db37269b01f7f.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /skaltenp/Meta-Llama-3-8B-sepsis_cases-787846414/resolve/main/special_tokens_map.json HTTP/1.1" 200 335
+DEBUG:filelock:Attempting to release lock 139678683026128 on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/04829afa78a2d2df203ac846968db37269b01f7f.lock
+DEBUG:filelock:Lock 139678683026128 released on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/04829afa78a2d2df203ac846968db37269b01f7f.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /skaltenp/Meta-Llama-3-8B-sepsis_cases-787846414/resolve/main/adapter_config.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 139678683413328 on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/dcd24135fc13c1ef4b0cf8c6d66fdd435af30a70.lock
+DEBUG:filelock:Lock 139678683413328 acquired on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/dcd24135fc13c1ef4b0cf8c6d66fdd435af30a70.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /skaltenp/Meta-Llama-3-8B-sepsis_cases-787846414/resolve/main/adapter_config.json HTTP/1.1" 200 651
+DEBUG:filelock:Attempting to release lock 139678683413328 on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/dcd24135fc13c1ef4b0cf8c6d66fdd435af30a70.lock
+DEBUG:filelock:Lock 139678683413328 released on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/dcd24135fc13c1ef4b0cf8c6d66fdd435af30a70.lock
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /meta-llama/Meta-Llama-3-8B/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:bitsandbytes.cextension:Loading bitsandbytes native library from: /home/sascha/miniconda/envs/llm/lib/python3.11/site-packages/bitsandbytes/libbitsandbytes_cuda121.so
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /meta-llama/Meta-Llama-3-8B/resolve/main/generation_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /skaltenp/Meta-Llama-3-8B-sepsis_cases-787846414/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /skaltenp/Meta-Llama-3-8B-sepsis_cases-787846414/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /skaltenp/Meta-Llama-3-8B-sepsis_cases-787846414/resolve/main/adapter_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /skaltenp/Meta-Llama-3-8B-sepsis_cases-787846414/resolve/main/adapter_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /skaltenp/Meta-Llama-3-8B-sepsis_cases-787846414/resolve/main/adapter_model.safetensors HTTP/1.1" 302 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /skaltenp/Meta-Llama-3-8B-sepsis_cases-787846414/resolve/main/adapter_model.safetensors HTTP/1.1" 302 0
+DEBUG:filelock:Attempting to acquire lock 139678646615952 on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/00a6c349c74a7b1c1048da7e178a7d9f290726c6437b0b30325e0533238fa47d.lock
+DEBUG:filelock:Lock 139678646615952 acquired on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/00a6c349c74a7b1c1048da7e178a7d9f290726c6437b0b30325e0533238fa47d.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): cdn-lfs-us-1.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://cdn-lfs-us-1.huggingface.co:443 "GET /repos/72/cc/72cca77161d6eb1880ad54a855a7bc429a8057562a4945a7800103e56884ff1d/00a6c349c74a7b1c1048da7e178a7d9f290726c6437b0b30325e0533238fa47d?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27adapter_model.safetensors%3B+filename%3D%22adapter_model.safetensors%22%3B&Expires=1718158657&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcxODE1ODY1N319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmh1Z2dpbmdmYWNlLmNvL3JlcG9zLzcyL2NjLzcyY2NhNzcxNjFkNmViMTg4MGFkNTRhODU1YTdiYzQyOWE4MDU3NTYyYTQ5NDVhNzgwMDEwM2U1Njg4NGZmMWQvMDBhNmMzNDljNzRhN2IxYzEwNDhkYTdlMTc4YTdkOWYyOTA3MjZjNjQzN2IwYjMwMzI1ZTA1MzMyMzhmYTQ3ZD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=cJc0-GMLuFUqgc9zOk9TlQe6l40md29Bcib3LBUVfDv8U3t1m1fMaE6rTUiSzE49xuD03NupnQS1qm57~URY1Ie58xnhrcOcj4VIUkYRiGKUwB1HStPyhGf4NmGLDHNF3K80Kcj~5KELO0~xbReP2U6L4qNTczKV3RV5QzqtXox5KiE9SQzzTiUk~xhTmalZqZXzfCzEWZ7P3NNgzA-dZuq8RENvYOEx4vgWVYh1ICsYoac-B8NnBBNfxd8LTQ2pLIxi6GK~CVlc~XsP0wfkYueyadqJ28JXciPHhtE4bfIDe8mIX5M7vhoSHKEU5BAOs8QxCNRi9yM~qaYDR--WJg__&Key-Pair-Id=KCD77M1F0VK2B HTTP/1.1" 200 13648432
+DEBUG:filelock:Attempting to release lock 139678646615952 on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/00a6c349c74a7b1c1048da7e178a7d9f290726c6437b0b30325e0533238fa47d.lock
+DEBUG:filelock:Lock 139678646615952 released on /home/sascha/.cache/huggingface/hub/.locks/models--skaltenp--Meta-Llama-3-8B-sepsis_cases-787846414/00a6c349c74a7b1c1048da7e178a7d9f290726c6437b0b30325e0533238fa47d.lock
+INFO:__main__:Example 1 processed in 27.03079867362976 seconds. Example on average in : 27.03079867362976 seconds. Time elapsed: 27.031058073043823. Time remaining (estim.): 94.15
+INFO:__main__:Example 2 processed in 46.52053904533386 seconds. Example on average in : 36.77566885948181 seconds. Time elapsed: 73.55196523666382. Time remaining (estim.): 127.48333333333333
+INFO:__main__:Example 3 processed in 74.62553477287292 seconds. Example on average in : 49.39229083061218 seconds. Time elapsed: 148.17780685424805. Time remaining (estim.): 170.4
+INFO:__main__:Example 4 processed in 97.1350302696228 seconds. Example on average in : 61.32797569036484 seconds. Time elapsed: 245.31314158439636. Time remaining (estim.): 210.56666666666666
+INFO:__main__:Example 5 processed in 56.18837118148804 seconds. Example on average in : 60.30005478858948 seconds. Time elapsed: 301.50181007385254. Time remaining (estim.): 206.03333333333333
+INFO:__main__:Example 6 processed in 163.01498413085938 seconds. Example on average in : 77.41920967896779 seconds. Time elapsed: 464.5170967578888. Time remaining (estim.): 263.23333333333335
+INFO:__main__:Example 7 processed in 101.09165406227112 seconds. Example on average in : 80.80098744801113 seconds. Time elapsed: 565.6090557575226. Time remaining (estim.): 273.3833333333333
+INFO:__main__:Example 8 processed in 46.92154312133789 seconds. Example on average in : 76.56605690717697 seconds. Time elapsed: 612.5309081077576. Time remaining (estim.): 257.76666666666665
+INFO:__main__:Example 9 processed in 30.80864930152893 seconds. Example on average in : 71.48190050654941 seconds. Time elapsed: 643.3398339748383. Time remaining (estim.): 239.46666666666667
+INFO:__main__:Example 10 processed in 30.78886365890503 seconds. Example on average in : 67.41259682178497 seconds. Time elapsed: 674.1289727687836. Time remaining (estim.): 224.71666666666667
+INFO:__main__:Example 11 processed in 73.29496955871582 seconds. Example on average in : 67.94735797968778 seconds. Time elapsed: 747.4242358207703. Time remaining (estim.): 225.36666666666667
+INFO:__main__:Example 12 processed in 8.436580419540405 seconds. Example on average in : 62.98812651634216 seconds. Time elapsed: 755.8611018657684. Time remaining (estim.): 207.86666666666667
+INFO:__main__:Example 13 processed in 30.093239068984985 seconds. Example on average in : 60.45775055885315 seconds. Time elapsed: 785.9546129703522. Time remaining (estim.): 198.5
+INFO:__main__:Example 14 processed in 55.49913144111633 seconds. Example on average in : 60.1035634790148 seconds. Time elapsed: 841.4540116786957. Time remaining (estim.): 196.33333333333334
+INFO:__main__:Example 15 processed in 64.08088326454163 seconds. Example on average in : 60.36871813138326 seconds. Time elapsed: 905.5351734161377. Time remaining (estim.): 196.2
+INFO:__main__:Example 16 processed in 39.758136510849 seconds. Example on average in : 59.08055678009987 seconds. Time elapsed: 945.2936372756958. Time remaining (estim.): 191.03333333333333
+INFO:__main__:Example 17 processed in 17.427772045135498 seconds. Example on average in : 56.63039297216079 seconds. Time elapsed: 962.7216820716858. Time remaining (estim.): 182.16666666666666
+INFO:__main__:Example 18 processed in 30.8979434967041 seconds. Example on average in : 55.20081244574653 seconds. Time elapsed: 993.6199097633362. Time remaining (estim.): 176.65
+INFO:__main__:Example 19 processed in 56.42754626274109 seconds. Example on average in : 55.265377383483084 seconds. Time elapsed: 1050.0477402210236. Time remaining (estim.): 175.93333333333334
+INFO:__main__:Example 20 processed in 31.615886688232422 seconds. Example on average in : 54.08290284872055 seconds. Time elapsed: 1081.6639173030853. Time remaining (estim.): 171.26666666666668
+INFO:__main__:Example 21 processed in 45.22992300987244 seconds. Example on average in : 53.66133238020397 seconds. Time elapsed: 1126.894121646881. Time remaining (estim.): 169.03333333333333
+INFO:__main__:Example 22 processed in 97.1758930683136 seconds. Example on average in : 55.63926695693623 seconds. Time elapsed: 1224.0702979564667. Time remaining (estim.): 174.33333333333334
+INFO:__main__:Example 23 processed in 71.3837776184082 seconds. Example on average in : 56.32381089873936 seconds. Time elapsed: 1295.4543664455414. Time remaining (estim.): 175.55
+INFO:__main__:Example 24 processed in 17.645599126815796 seconds. Example on average in : 54.712218741575875 seconds. Time elapsed: 1313.1002571582794. Time remaining (estim.): 169.6
+INFO:__main__:Example 25 processed in 271.70870757102966 seconds. Example on average in : 63.39207829475403 seconds. Time elapsed: 1584.8092834949493. Time remaining (estim.): 195.46666666666667
+INFO:__main__:Example 26 processed in 85.89700484275818 seconds. Example on average in : 64.25765239275418 seconds. Time elapsed: 1670.706563949585. Time remaining (estim.): 197.05
+INFO:__main__:Example 27 processed in 41.75948691368103 seconds. Example on average in : 63.424387004640366 seconds. Time elapsed: 1712.4663307666779. Time remaining (estim.): 193.45
+INFO:__main__:Example 28 processed in 50.59933543205261 seconds. Example on average in : 62.96634944847652 seconds. Time elapsed: 1763.065949678421. Time remaining (estim.): 191.0
+INFO:__main__:Example 29 processed in 81.72465062141418 seconds. Example on average in : 63.61318741995713 seconds. Time elapsed: 1844.7908792495728. Time remaining (estim.): 191.9
+INFO:__main__:Example 30 processed in 30.999435424804688 seconds. Example on average in : 62.52606235345205 seconds. Time elapsed: 1875.7905943393707. Time remaining (estim.): 187.58333333333334
+INFO:__main__:Example 31 processed in 56.384077072143555 seconds. Example on average in : 62.32793379599048 seconds. Time elapsed: 1932.1749393939972. Time remaining (estim.): 185.95
+INFO:__main__:Example 32 processed in 49.79718899726868 seconds. Example on average in : 61.936348021030426 seconds. Time elapsed: 1981.9723989963531. Time remaining (estim.): 183.75
+INFO:__main__:Example 33 processed in 31.808814525604248 seconds. Example on average in : 61.02339246056297 seconds. Time elapsed: 2013.7814905643463. Time remaining (estim.): 180.01666666666668
+INFO:__main__:Example 34 processed in 55.66068983078003 seconds. Example on average in : 60.865665912628174 seconds. Time elapsed: 2069.4424374103546. Time remaining (estim.): 178.53333333333333
+INFO:__main__:Example 35 processed in 30.937028169631958 seconds. Example on average in : 60.010561977113994 seconds. Time elapsed: 2100.379730463028. Time remaining (estim.): 175.03333333333333
+INFO:__main__:Example 36 processed in 51.45813298225403 seconds. Example on average in : 59.77299450503455 seconds. Time elapsed: 2151.8381481170654. Time remaining (estim.): 173.35
+INFO:__main__:Example 37 processed in 103.99481344223022 seconds. Example on average in : 60.96817880063443 seconds. Time elapsed: 2255.833250284195. Time remaining (estim.): 175.78333333333333
+INFO:__main__:Example 38 processed in 17.456017017364502 seconds. Example on average in : 59.823121911601014 seconds. Time elapsed: 2273.289530515671. Time remaining (estim.): 171.5
+INFO:__main__:Example 39 processed in 39.43788433074951 seconds. Example on average in : 59.300423512092 seconds. Time elapsed: 2312.7276978492737. Time remaining (estim.): 169.0
+INFO:__main__:Example 40 processed in 50.35306453704834 seconds. Example on average in : 59.07673953771591 seconds. Time elapsed: 2363.0810310840607. Time remaining (estim.): 167.38333333333333
+INFO:__main__:Example 41 processed in 45.55645823478699 seconds. Example on average in : 58.74697657910789 seconds. Time elapsed: 2408.6377696990967. Time remaining (estim.): 165.46666666666667
+INFO:__main__:Example 42 processed in 17.59907364845276 seconds. Example on average in : 57.76726460456848 seconds. Time elapsed: 2426.2371122837067. Time remaining (estim.): 161.75
+INFO:__main__:Example 43 processed in 46.73154544830322 seconds. Example on average in : 57.51061997302743 seconds. Time elapsed: 2472.9689342975616. Time remaining (estim.): 160.06666666666666
+INFO:__main__:Example 44 processed in 17.53705859184265 seconds. Example on average in : 56.60212994163687 seconds. Time elapsed: 2490.5062589645386. Time remaining (estim.): 156.6
+INFO:__main__:Example 45 processed in 32.585527658462524 seconds. Example on average in : 56.06842766867744 seconds. Time elapsed: 2523.0920717716217. Time remaining (estim.): 154.18333333333334
+INFO:__main__:Example 46 processed in 31.562897443771362 seconds. Example on average in : 55.53569875074469 seconds. Time elapsed: 2554.6552658081055. Time remaining (estim.): 151.8
+INFO:__main__:Example 47 processed in 107.11438775062561 seconds. Example on average in : 56.63311766563578 seconds. Time elapsed: 2661.7699410915375. Time remaining (estim.): 153.85
+INFO:__main__:Example 48 processed in 64.53747129440308 seconds. Example on average in : 56.79779169956843 seconds. Time elapsed: 2726.3076882362366. Time remaining (estim.): 153.35
+INFO:__main__:Example 49 processed in 89.56896448135376 seconds. Example on average in : 57.466591144094664 seconds. Time elapsed: 2815.876952648163. Time remaining (estim.): 154.2
+INFO:__main__:Example 50 processed in 65.77412962913513 seconds. Example on average in : 57.63274191379547 seconds. Time elapsed: 2881.6513566970825. Time remaining (estim.): 153.68333333333334
+INFO:__main__:Example 51 processed in 178.1198902130127 seconds. Example on average in : 59.99523501770169 seconds. Time elapsed: 3059.7719247341156. Time remaining (estim.): 158.98333333333332
+INFO:__main__:Example 52 processed in 70.97077512741089 seconds. Example on average in : 60.20630309673456 seconds. Time elapsed: 3130.742978811264. Time remaining (estim.): 158.55
+INFO:__main__:Example 53 processed in 41.96933341026306 seconds. Example on average in : 59.86220932906529 seconds. Time elapsed: 3172.712583065033. Time remaining (estim.): 156.63333333333333
+INFO:__main__:Example 54 processed in 31.091439962387085 seconds. Example on average in : 59.32941730375643 seconds. Time elapsed: 3203.804295539856. Time remaining (estim.): 154.25
+INFO:__main__:Example 55 processed in 17.535969257354736 seconds. Example on average in : 58.569536430185494 seconds. Time elapsed: 3221.3405344486237. Time remaining (estim.): 151.3
+INFO:__main__:Example 56 processed in 49.0198769569397 seconds. Example on average in : 58.399006796734675 seconds. Time elapsed: 3270.360687494278. Time remaining (estim.): 149.88333333333333
+INFO:__main__:Example 57 processed in 64.2279405593872 seconds. Example on average in : 58.501268792570684 seconds. Time elapsed: 3334.5889081954956. Time remaining (estim.): 149.18333333333334
+INFO:__main__:Example 58 processed in 26.70669388771057 seconds. Example on average in : 57.95308646662482 seconds. Time elapsed: 3361.2958784103394. Time remaining (estim.): 146.81666666666666
+INFO:__main__:Example 59 processed in 60.081231355667114 seconds. Example on average in : 57.98915671898147 seconds. Time elapsed: 3421.3773984909058. Time remaining (estim.): 145.93333333333334
+INFO:__main__:Example 60 processed in 27.301257133483887 seconds. Example on average in : 57.47769172588984 seconds. Time elapsed: 3448.67892742157. Time remaining (estim.): 143.7
+INFO:__main__:Example 61 processed in 46.0730299949646 seconds. Example on average in : 57.29073005816976 seconds. Time elapsed: 3494.752226114273. Time remaining (estim.): 142.26666666666668
+INFO:__main__:Example 62 processed in 8.44984483718872 seconds. Example on average in : 56.50297384492813 seconds. Time elapsed: 3503.202343940735. Time remaining (estim.): 139.36666666666667
+INFO:__main__:Example 63 processed in 8.461107969284058 seconds. Example on average in : 55.740404545314725 seconds. Time elapsed: 3511.6637082099915. Time remaining (estim.): 136.56666666666666
+INFO:__main__:Example 64 processed in 65.64631843566895 seconds. Example on average in : 55.89518444985151 seconds. Time elapsed: 3577.3103058338165. Time remaining (estim.): 136.01666666666668
+INFO:__main__:Example 65 processed in 51.13507962226868 seconds. Example on average in : 55.8219520678887 seconds. Time elapsed: 3628.4456441402435. Time remaining (estim.): 134.9
+INFO:__main__:Example 66 processed in 72.19116425514221 seconds. Example on average in : 56.06997043436224 seconds. Time elapsed: 3700.637073993683. Time remaining (estim.): 134.56666666666666
+INFO:__main__:Example 67 processed in 31.08230471611023 seconds. Example on average in : 55.69702019976146 seconds. Time elapsed: 3731.719643831253. Time remaining (estim.): 132.75
+INFO:__main__:Example 68 processed in 18.310614585876465 seconds. Example on average in : 55.14722011720433 seconds. Time elapsed: 3750.0305354595184. Time remaining (estim.): 130.51666666666668
+INFO:__main__:Example 69 processed in 22.590351819992065 seconds. Example on average in : 54.67538144623024 seconds. Time elapsed: 3772.6211433410645. Time remaining (estim.): 128.48333333333332
+INFO:__main__:Example 70 processed in 72.5529317855835 seconds. Example on average in : 54.930775022506715 seconds. Time elapsed: 3845.174336910248. Time remaining (estim.): 128.16666666666666
+INFO:__main__:Example 71 processed in 61.205495834350586 seconds. Example on average in : 55.0191513719693 seconds. Time elapsed: 3906.3801231384277. Time remaining (estim.): 127.46666666666667
+INFO:__main__:Example 72 processed in 96.72070074081421 seconds. Example on average in : 55.598339557647705 seconds. Time elapsed: 4003.1011061668396. Time remaining (estim.): 127.88333333333334
+INFO:__main__:Example 73 processed in 31.6882107257843 seconds. Example on average in : 55.27080354625232 seconds. Time elapsed: 4034.7895846366882. Time remaining (estim.): 126.2
+INFO:__main__:Example 74 processed in 69.54480195045471 seconds. Example on average in : 55.46369541657938 seconds. Time elapsed: 4104.334667921066. Time remaining (estim.): 125.71666666666667
+INFO:__main__:Example 75 processed in 54.890652656555176 seconds. Example on average in : 55.45605484644572 seconds. Time elapsed: 4159.225600481033. Time remaining (estim.): 124.78333333333333
+INFO:__main__:Example 76 processed in 8.462458372116089 seconds. Example on average in : 54.83771805073086 seconds. Time elapsed: 4167.688329219818. Time remaining (estim.): 122.46666666666667
+INFO:__main__:Example 77 processed in 60.73783731460571 seconds. Example on average in : 54.91434297623572 seconds. Time elapsed: 4228.426421880722. Time remaining (estim.): 121.73333333333333
+INFO:__main__:Example 78 processed in 111.68689227104187 seconds. Example on average in : 55.64219617232298 seconds. Time elapsed: 4340.113597154617. Time remaining (estim.): 122.41666666666667
+INFO:__main__:Example 79 processed in 104.9016466140747 seconds. Example on average in : 56.265733519686925 seconds. Time elapsed: 4445.01552939415. Time remaining (estim.): 122.85
+INFO:__main__:Example 80 processed in 71.11114931106567 seconds. Example on average in : 56.45130121707916 seconds. Time elapsed: 4516.12695145607. Time remaining (estim.): 122.31666666666666
+INFO:__main__:Example 81 processed in 54.008354902267456 seconds. Example on average in : 56.421141386032104 seconds. Time elapsed: 4570.135596513748. Time remaining (estim.): 121.3
+INFO:__main__:Example 82 processed in 56.76707887649536 seconds. Example on average in : 56.4253601359158 seconds. Time elapsed: 4626.902949333191. Time remaining (estim.): 120.36666666666666
+INFO:__main__:Example 83 processed in 196.64759492874146 seconds. Example on average in : 58.114784651492016 seconds. Time elapsed: 4823.550842523575. Time remaining (estim.): 123.01666666666667
+INFO:__main__:Example 84 processed in 71.20717096328735 seconds. Example on average in : 58.2706463932991 seconds. Time elapsed: 4894.758281946182. Time remaining (estim.): 122.36666666666666
+INFO:__main__:Example 85 processed in 95.78166389465332 seconds. Example on average in : 58.71195248155033 seconds. Time elapsed: 4990.5402200222015. Time remaining (estim.): 122.31666666666666
+INFO:__main__:Example 86 processed in 321.8036193847656 seconds. Example on average in : 61.771157910657486 seconds. Time elapsed: 5312.3441569805145. Time remaining (estim.): 127.66666666666667
+INFO:__main__:Example 87 processed in 55.4184455871582 seconds. Example on average in : 61.698138228778184 seconds. Time elapsed: 5367.762878417969. Time remaining (estim.): 126.48333333333333
+INFO:__main__:Example 88 processed in 45.950822591781616 seconds. Example on average in : 61.519191460175946 seconds. Time elapsed: 5413.713962554932. Time remaining (estim.): 125.08333333333333
+INFO:__main__:Example 89 processed in 103.15509939193726 seconds. Example on average in : 61.98701065042046 seconds. Time elapsed: 5516.869329929352. Time remaining (estim.): 125.0
+INFO:__main__:Example 90 processed in 50.77672052383423 seconds. Example on average in : 61.86245187123617 seconds. Time elapsed: 5567.646327018738. Time remaining (estim.): 123.71666666666667
+INFO:__main__:Example 91 processed in 36.586766958236694 seconds. Example on average in : 61.58469709197244 seconds. Time elapsed: 5604.233357667923. Time remaining (estim.): 122.15
+INFO:__main__:Example 92 processed in 70.51029706001282 seconds. Example on average in : 61.681714482929394 seconds. Time elapsed: 5674.743943691254. Time remaining (estim.): 121.3
+INFO:__main__:Example 93 processed in 32.3421311378479 seconds. Example on average in : 61.36623509212207 seconds. Time elapsed: 5707.086345434189. Time remaining (estim.): 119.66666666666667
+INFO:__main__:Example 94 processed in 39.65482211112976 seconds. Example on average in : 61.13526261360087 seconds. Time elapsed: 5746.74143743515. Time remaining (estim.): 118.2
+INFO:__main__:Example 95 processed in 70.20252823829651 seconds. Example on average in : 61.23070751491346 seconds. Time elapsed: 5816.944245815277. Time remaining (estim.): 117.36666666666666
+INFO:__main__:Example 96 processed in 40.93686652183533 seconds. Example on average in : 61.019313337902226 seconds. Time elapsed: 5857.881379127502. Time remaining (estim.): 115.93333333333334
+INFO:__main__:Example 97 processed in 65.13440752029419 seconds. Example on average in : 61.0617369892671 seconds. Time elapsed: 5923.016047716141. Time remaining (estim.): 115.0
+INFO:__main__:Example 98 processed in 62.82228374481201 seconds. Example on average in : 61.079701752078776 seconds. Time elapsed: 5985.838607788086. Time remaining (estim.): 114.01666666666667
+INFO:__main__:Example 99 processed in 55.75677943229675 seconds. Example on average in : 61.02593485995977 seconds. Time elapsed: 6041.595652580261. Time remaining (estim.): 112.9
+INFO:__main__:Example 100 processed in 72.06871056556702 seconds. Example on average in : 61.13636261701584 seconds. Time elapsed: 6113.664653778076. Time remaining (estim.): 112.08333333333333
+INFO:__main__:Example 101 processed in 51.34179162979126 seconds. Example on average in : 61.03938666664728 seconds. Time elapsed: 6165.006715297699. Time remaining (estim.): 110.88333333333334
+INFO:__main__:Example 102 processed in 17.44005799293518 seconds. Example on average in : 60.6119422678854 seconds. Time elapsed: 6182.447046756744. Time remaining (estim.): 109.1
+INFO:__main__:Example 103 processed in 50.70837903022766 seconds. Example on average in : 60.51579116849066 seconds. Time elapsed: 6233.15572977066. Time remaining (estim.): 107.91666666666667
+INFO:__main__:Example 104 processed in 71.43493103981018 seconds. Example on average in : 60.620782898022576 seconds. Time elapsed: 6304.590938806534. Time remaining (estim.): 107.1
+INFO:__main__:Example 105 processed in 118.18204808235168 seconds. Example on average in : 61.168985423587614 seconds. Time elapsed: 6422.7732582092285. Time remaining (estim.): 107.05
+INFO:__main__:Example 106 processed in 65.01658511161804 seconds. Example on average in : 61.205283533852054 seconds. Time elapsed: 6487.790119409561. Time remaining (estim.): 106.08333333333333
+INFO:__main__:Example 107 processed in 55.67381525039673 seconds. Example on average in : 61.15358756858612 seconds. Time elapsed: 6543.464196681976. Time remaining (estim.): 104.98333333333333
+INFO:__main__:Example 108 processed in 65.21565532684326 seconds. Example on average in : 61.191199307088496 seconds. Time elapsed: 6608.680133104324. Time remaining (estim.): 104.03333333333333
+INFO:__main__:Example 109 processed in 71.63165760040283 seconds. Example on average in : 61.28698332812808 seconds. Time elapsed: 6680.312081575394. Time remaining (estim.): 103.16666666666667
+INFO:__main__:Example 110 processed in 147.7405595779419 seconds. Example on average in : 62.07292493039911 seconds. Time elapsed: 6828.05292391777. Time remaining (estim.): 103.45
+INFO:__main__:Example 111 processed in 66.4972722530365 seconds. Example on average in : 62.11278391528774 seconds. Time elapsed: 6894.5504693984985. Time remaining (estim.): 102.48333333333333
+INFO:__main__:Example 112 processed in 17.65828585624695 seconds. Example on average in : 61.715868754046305 seconds. Time elapsed: 6912.209318637848. Time remaining (estim.): 100.8
+INFO:__main__:Example 113 processed in 65.94458889961243 seconds. Example on average in : 61.75329105621945 seconds. Time elapsed: 6978.154185771942. Time remaining (estim.): 99.83333333333333
+INFO:__main__:Example 114 processed in 63.078290939331055 seconds. Example on average in : 61.764913862211664 seconds. Time elapsed: 7041.232760667801. Time remaining (estim.): 98.81666666666666
+INFO:__main__:Example 115 processed in 8.473128318786621 seconds. Example on average in : 61.30150703139927 seconds. Time elapsed: 7049.706145524979. Time remaining (estim.): 97.06666666666666
+INFO:__main__:Example 116 processed in 95.3459997177124 seconds. Example on average in : 61.594994037315765 seconds. Time elapsed: 7145.0524225234985. Time remaining (estim.): 96.5
+INFO:__main__:Example 117 processed in 60.68632936477661 seconds. Example on average in : 61.58722767259321 seconds. Time elapsed: 7205.739021539688. Time remaining (estim.): 95.46666666666667
+INFO:__main__:Example 118 processed in 50.785085678100586 seconds. Example on average in : 61.49568409636869 seconds. Time elapsed: 7256.524399757385. Time remaining (estim.): 94.3
+INFO:__main__:Example 119 processed in 27.297385692596436 seconds. Example on average in : 61.208303437513464 seconds. Time elapsed: 7283.822050571442. Time remaining (estim.): 92.83333333333333
+INFO:__main__:Example 120 processed in 95.22491335868835 seconds. Example on average in : 61.491775186856586 seconds. Time elapsed: 7379.047238111496. Time remaining (estim.): 92.23333333333333
+INFO:__main__:Example 121 processed in 61.45883369445801 seconds. Example on average in : 61.49150294311776 seconds. Time elapsed: 7440.50634098053. Time remaining (estim.): 91.21666666666667
+INFO:__main__:Example 122 processed in 61.38347578048706 seconds. Example on average in : 61.4906174745716 seconds. Time elapsed: 7501.890089035034. Time remaining (estim.): 90.18333333333334
+INFO:__main__:Example 123 processed in 40.99775791168213 seconds. Example on average in : 61.32400886023917 seconds. Time elapsed: 7542.8881316185. Time remaining (estim.): 88.91666666666667
+INFO:__main__:Example 124 processed in 50.684161901474 seconds. Example on average in : 61.238203642829774 seconds. Time elapsed: 7593.572585344315. Time remaining (estim.): 87.76666666666667
+INFO:__main__:Example 125 processed in 49.69387483596802 seconds. Example on average in : 61.145849012374875 seconds. Time elapsed: 7643.266723394394. Time remaining (estim.): 86.61666666666666
+INFO:__main__:Example 126 processed in 35.09401798248291 seconds. Example on average in : 60.93908844864558 seconds. Time elapsed: 7678.361021518707. Time remaining (estim.): 85.31666666666666
+INFO:__main__:Example 127 processed in 81.12173795700073 seconds. Example on average in : 61.098006948711365 seconds. Time elapsed: 7759.483026027679. Time remaining (estim.): 84.51666666666667
+INFO:__main__:Example 128 processed in 22.383126974105835 seconds. Example on average in : 60.79554694890976 seconds. Time elapsed: 7781.866454601288. Time remaining (estim.): 83.08333333333333
+INFO:__main__:Example 129 processed in 197.92614698410034 seconds. Example on average in : 61.8585748561593 seconds. Time elapsed: 7979.792890548706. Time remaining (estim.): 83.51666666666667
+INFO:__main__:Example 130 processed in 31.801236867904663 seconds. Example on average in : 61.62736456394195 seconds. Time elapsed: 8011.5944011211395. Time remaining (estim.): 82.16666666666667
+INFO:__main__:Example 131 processed in 70.33519387245178 seconds. Example on average in : 61.69383654339623 seconds. Time elapsed: 8081.9298713207245. Time remaining (estim.): 81.23333333333333
+INFO:__main__:Example 132 processed in 59.951013803482056 seconds. Example on average in : 61.680633340821124 seconds. Time elapsed: 8141.881162643433. Time remaining (estim.): 80.18333333333334
+INFO:__main__:Example 133 processed in 66.07132816314697 seconds. Example on average in : 61.71364608384613 seconds. Time elapsed: 8207.952755689621. Time remaining (estim.): 79.2
+INFO:__main__:Example 134 processed in 81.65362524986267 seconds. Example on average in : 61.8624518985179 seconds. Time elapsed: 8289.606662988663. Time remaining (estim.): 78.36666666666666
+INFO:__main__:Example 135 processed in 65.47267127037048 seconds. Example on average in : 61.88919426423532 seconds. Time elapsed: 8355.079601287842. Time remaining (estim.): 77.36666666666666
+INFO:__main__:Example 136 processed in 91.18464541435242 seconds. Example on average in : 62.1046019932803 seconds. Time elapsed: 8446.26452922821. Time remaining (estim.): 76.6
+INFO:__main__:Example 137 processed in 31.01764416694641 seconds. Example on average in : 61.877689892358156 seconds. Time elapsed: 8477.282432556152. Time remaining (estim.): 75.28333333333333
+INFO:__main__:Example 138 processed in 28.12259602546692 seconds. Example on average in : 61.633087762887925 seconds. Time elapsed: 8505.405300855637. Time remaining (estim.): 73.96666666666667
+INFO:__main__:Example 139 processed in 69.40810060501099 seconds. Example on average in : 61.68902310707586 seconds. Time elapsed: 8574.813673257828. Time remaining (estim.): 73.0
+INFO:__main__:Example 140 processed in 30.91020178794861 seconds. Example on average in : 61.46917438336781 seconds. Time elapsed: 8605.72413611412. Time remaining (estim.): 71.71666666666667
+INFO:__main__:Example 141 processed in 51.34440469741821 seconds. Example on average in : 61.397367506162496 seconds. Time elapsed: 8657.068825483322. Time remaining (estim.): 70.6
+INFO:__main__:Example 142 processed in 55.68588852882385 seconds. Example on average in : 61.35714582322349 seconds. Time elapsed: 8712.754984617233. Time remaining (estim.): 69.53333333333333
+INFO:__main__:Example 143 processed in 55.66415810585022 seconds. Example on average in : 61.31733472030479 seconds. Time elapsed: 8768.419427156448. Time remaining (estim.): 68.46666666666667
+INFO:__main__:Example 144 processed in 71.67890429496765 seconds. Example on average in : 61.38929006457329 seconds. Time elapsed: 8840.098607063293. Time remaining (estim.): 67.53333333333333
+INFO:__main__:Example 145 processed in 66.01791286468506 seconds. Example on average in : 61.42121160112578 seconds. Time elapsed: 8906.116789340973. Time remaining (estim.): 66.53333333333333
+INFO:__main__:Example 146 processed in 22.320563793182373 seconds. Example on average in : 61.15339894490699 seconds. Time elapsed: 8928.437619447708. Time remaining (estim.): 65.23333333333333
+INFO:__main__:Example 147 processed in 108.24422311782837 seconds. Example on average in : 61.473744687579924 seconds. Time elapsed: 9036.682124614716. Time remaining (estim.): 64.55
+INFO:__main__:Example 148 processed in 41.17914652824402 seconds. Example on average in : 61.33661902434117 seconds. Time elapsed: 9077.861542224884. Time remaining (estim.): 63.38333333333333
+INFO:__main__:Example 149 processed in 8.455108404159546 seconds. Example on average in : 60.98170955709163 seconds. Time elapsed: 9086.316920995712. Time remaining (estim.): 62.0
+INFO:__main__:Example 150 processed in 71.3993170261383 seconds. Example on average in : 61.05116027355194 seconds. Time elapsed: 9157.716522216797. Time remaining (estim.): 61.05
+INFO:__main__:Example 151 processed in 57.38835835456848 seconds. Example on average in : 61.02690330720106 seconds. Time elapsed: 9215.105146408081. Time remaining (estim.): 60.016666666666666
+INFO:__main__:Example 152 processed in 92.05721712112427 seconds. Example on average in : 61.23105010860845 seconds. Time elapsed: 9307.162639856339. Time remaining (estim.): 59.18333333333333
+INFO:__main__:Example 153 processed in 53.12490177154541 seconds. Example on average in : 61.1780687469283 seconds. Time elapsed: 9360.287806272507. Time remaining (estim.): 58.11666666666667
+INFO:__main__:Example 154 processed in 18.206154346466064 seconds. Example on average in : 60.89903034173049 seconds. Time elapsed: 9378.49422121048. Time remaining (estim.): 56.833333333333336
+INFO:__main__:Example 155 processed in 81.47591137886047 seconds. Example on average in : 61.03178441293778 seconds. Time elapsed: 9459.97040963173. Time remaining (estim.): 55.95
+INFO:__main__:Example 156 processed in 56.13776397705078 seconds. Example on average in : 61.00041248706671 seconds. Time elapsed: 9516.108444213867. Time remaining (estim.): 54.9
+INFO:__main__:Example 157 processed in 65.24628520011902 seconds. Example on average in : 61.02745626230908 seconds. Time elapsed: 9581.354999780655. Time remaining (estim.): 53.9
+INFO:__main__:Example 158 processed in 60.09718871116638 seconds. Example on average in : 61.02156849299805 seconds. Time elapsed: 9641.452494382858. Time remaining (estim.): 52.88333333333333
+INFO:__main__:Example 159 processed in 18.273600339889526 seconds. Example on average in : 60.75271334738102 seconds. Time elapsed: 9659.7263610363. Time remaining (estim.): 51.63333333333333
+INFO:__main__:Example 160 processed in 12.58406925201416 seconds. Example on average in : 60.45165932178497 seconds. Time elapsed: 9672.31068110466. Time remaining (estim.): 50.38333333333333
+INFO:__main__:Example 161 processed in 49.75607395172119 seconds. Example on average in : 60.3852271145175 seconds. Time elapsed: 9722.067013263702. Time remaining (estim.): 49.31666666666667
+INFO:__main__:Example 162 processed in 18.24687957763672 seconds. Example on average in : 60.125113858117 seconds. Time elapsed: 9740.314185857773. Time remaining (estim.): 48.1
+INFO:__main__:Example 163 processed in 55.60643768310547 seconds. Example on average in : 60.097391918393 seconds. Time elapsed: 9795.920888185501. Time remaining (estim.): 47.083333333333336
+INFO:__main__:Example 164 processed in 41.62547993659973 seconds. Example on average in : 59.98475830874792 seconds. Time elapsed: 9837.546638250351. Time remaining (estim.): 45.983333333333334
+INFO:__main__:Example 165 processed in 40.89660835266113 seconds. Example on average in : 59.8690725514383 seconds. Time elapsed: 9878.443512916565. Time remaining (estim.): 44.9
+INFO:__main__:Example 166 processed in 65.05445504188538 seconds. Example on average in : 59.900309795356655 seconds. Time elapsed: 9943.498240947723. Time remaining (estim.): 43.93333333333333
+INFO:__main__:Example 167 processed in 30.90932059288025 seconds. Example on average in : 59.72671105761728 seconds. Time elapsed: 9974.40782880783. Time remaining (estim.): 42.8
+INFO:__main__:Example 168 processed in 23.303710460662842 seconds. Example on average in : 59.509907482635406 seconds. Time elapsed: 9997.711811542511. Time remaining (estim.): 41.65
+INFO:__main__:Example 169 processed in 80.663405418396 seconds. Example on average in : 59.63507610947423 seconds. Time elapsed: 10078.375503778458. Time remaining (estim.): 40.75
+INFO:__main__:Example 170 processed in 31.803332328796387 seconds. Example on average in : 59.47135996958789 seconds. Time elapsed: 10110.179107427597. Time remaining (estim.): 39.65
+INFO:__main__:Example 171 processed in 56.83847522735596 seconds. Example on average in : 59.455962982791206 seconds. Time elapsed: 10167.017867565155. Time remaining (estim.): 38.65
+INFO:__main__:Example 172 processed in 144.0349314212799 seconds. Example on average in : 59.947701171387074 seconds. Time elapsed: 10311.053086519241. Time remaining (estim.): 37.96666666666667
+INFO:__main__:Example 173 processed in 66.57289385795593 seconds. Example on average in : 59.98599708287013 seconds. Time elapsed: 10377.626253604889. Time remaining (estim.): 36.983333333333334
+INFO:__main__:Example 174 processed in 56.37853646278381 seconds. Example on average in : 59.96526455057079 seconds. Time elapsed: 10434.005067825317. Time remaining (estim.): 35.983333333333334
+INFO:__main__:Example 175 processed in 46.394466161727905 seconds. Example on average in : 59.88771713120597 seconds. Time elapsed: 10480.399809598923. Time remaining (estim.): 34.93333333333333
+INFO:__main__:Example 176 processed in 58.62479090690613 seconds. Example on average in : 59.880541414022446 seconds. Time elapsed: 10539.024867296219. Time remaining (estim.): 33.93333333333333
+INFO:__main__:Example 177 processed in 152.52495574951172 seconds. Example on average in : 60.403956184279444 seconds. Time elapsed: 10691.550121307373. Time remaining (estim.): 33.21666666666667
+INFO:__main__:Example 178 processed in 55.68839454650879 seconds. Example on average in : 60.37746426496613 seconds. Time elapsed: 10747.23878455162. Time remaining (estim.): 32.2
+INFO:__main__:Example 179 processed in 60.83573389053345 seconds. Example on average in : 60.38002443047209 seconds. Time elapsed: 10808.0748026371. Time remaining (estim.): 31.2
+INFO:__main__:Example 180 processed in 55.401118755340576 seconds. Example on average in : 60.35236384338803 seconds. Time elapsed: 10863.476177930832. Time remaining (estim.): 30.183333333333334
+INFO:__main__:Example 181 processed in 74.74662327766418 seconds. Example on average in : 60.43189013860502 seconds. Time elapsed: 10938.223085165024. Time remaining (estim.): 29.216666666666665
+INFO:__main__:Example 182 processed in 32.53541684150696 seconds. Example on average in : 60.278612812796794 seconds. Time elapsed: 10970.758800029755. Time remaining (estim.): 28.133333333333333
+INFO:__main__:Example 183 processed in 56.53876829147339 seconds. Example on average in : 60.2581765039371 seconds. Time elapsed: 11027.297850608826. Time remaining (estim.): 27.116666666666667
+INFO:__main__:Example 184 processed in 122.75710940361023 seconds. Example on average in : 60.597844617522284 seconds. Time elapsed: 11150.055248737335. Time remaining (estim.): 26.266666666666666
+INFO:__main__:Example 185 processed in 47.562511920928955 seconds. Example on average in : 60.52738335970286 seconds. Time elapsed: 11197.618031263351. Time remaining (estim.): 25.216666666666665
+INFO:__main__:Example 186 processed in 158.30438876152039 seconds. Example on average in : 61.053066184443814 seconds. Time elapsed: 11355.922718763351. Time remaining (estim.): 24.416666666666668
+INFO:__main__:Example 187 processed in 144.80915069580078 seconds. Example on average in : 61.500959684504544 seconds. Time elapsed: 11500.732555150986. Time remaining (estim.): 23.583333333333332
+INFO:__main__:Example 188 processed in 70.1978406906128 seconds. Example on average in : 61.547219689856185 seconds. Time elapsed: 11570.930665493011. Time remaining (estim.): 22.566666666666666
+INFO:__main__:Example 189 processed in 51.21945285797119 seconds. Example on average in : 61.49257542090441 seconds. Time elapsed: 11622.15038061142. Time remaining (estim.): 21.516666666666666
+INFO:__main__:Example 190 processed in 55.20198106765747 seconds. Example on average in : 61.459467029571535 seconds. Time elapsed: 11677.352638721466. Time remaining (estim.): 20.483333333333334
+INFO:__main__:Example 191 processed in 71.13563561439514 seconds. Example on average in : 61.51012759807846 seconds. Time elapsed: 11748.488535404205. Time remaining (estim.): 19.483333333333334
+INFO:__main__:Example 192 processed in 23.308671236038208 seconds. Example on average in : 61.31116167952617 seconds. Time elapsed: 11771.797466516495. Time remaining (estim.): 18.4
+INFO:__main__:Example 193 processed in 18.25135111808777 seconds. Example on average in : 61.08805385278296 seconds. Time elapsed: 11790.049087524414. Time remaining (estim.): 17.3
+INFO:__main__:Example 194 processed in 148.43722009658813 seconds. Example on average in : 61.53830728702938 seconds. Time elapsed: 11938.486606359482. Time remaining (estim.): 16.416666666666668
+INFO:__main__:Example 195 processed in 107.60195851325989 seconds. Example on average in : 61.77453113947159 seconds. Time elapsed: 12046.088834524155. Time remaining (estim.): 15.45
+INFO:__main__:Example 196 processed in 8.445922374725342 seconds. Example on average in : 61.50244640087595 seconds. Time elapsed: 12054.535014867783. Time remaining (estim.): 14.35
+INFO:__main__:Example 197 processed in 72.62093687057495 seconds. Example on average in : 61.558885438793205 seconds. Time elapsed: 12127.15625. Time remaining (estim.): 13.333333333333334
+INFO:__main__:Example 198 processed in 41.034218072891235 seconds. Example on average in : 61.45522550260178 seconds. Time elapsed: 12168.190744161606. Time remaining (estim.): 12.283333333333333
+INFO:__main__:Example 199 processed in 44.78670310974121 seconds. Example on average in : 61.37146408354218 seconds. Time elapsed: 12212.97771525383. Time remaining (estim.): 11.25
+INFO:__main__:Example 200 processed in 80.97204685211182 seconds. Example on average in : 61.46946699738503 seconds. Time elapsed: 12293.95003938675. Time remaining (estim.): 10.25
+INFO:__main__:Example 201 processed in 31.823094844818115 seconds. Example on average in : 61.321972608566284 seconds. Time elapsed: 12325.773391485214. Time remaining (estim.): 9.2
+INFO:__main__:Example 202 processed in 71.88804864883423 seconds. Example on average in : 61.37427991569632 seconds. Time elapsed: 12397.661704540253. Time remaining (estim.): 8.183333333333334
+INFO:__main__:Example 203 processed in 71.12784790992737 seconds. Example on average in : 61.422327048672834 seconds. Time elapsed: 12468.789809465408. Time remaining (estim.): 7.166666666666667
+INFO:__main__:Example 204 processed in 31.8246009349823 seconds. Example on average in : 61.27724015595866 seconds. Time elapsed: 12500.614681959152. Time remaining (estim.): 6.133333333333334
+INFO:__main__:Example 205 processed in 46.17196822166443 seconds. Example on average in : 61.20355590262064 seconds. Time elapsed: 12546.786907672882. Time remaining (estim.): 5.1
+INFO:__main__:Example 206 processed in 32.60049343109131 seconds. Example on average in : 61.064706084797685 seconds. Time elapsed: 12579.38767504692. Time remaining (estim.): 4.066666666666666
+INFO:__main__:Example 207 processed in 91.08480548858643 seconds. Example on average in : 61.209730719598596 seconds. Time elapsed: 12670.472758293152. Time remaining (estim.): 3.066666666666667
+INFO:__main__:Example 208 processed in 51.9379358291626 seconds. Example on average in : 61.16515478262534 seconds. Time elapsed: 12722.41097855568. Time remaining (estim.): 2.033333333333333
+INFO:__main__:Example 209 processed in 31.797395944595337 seconds. Example on average in : 61.02463919009889 seconds. Time elapsed: 12754.20863699913. Time remaining (estim.): 1.0166666666666666
+INFO:__main__:Example 210 processed in 61.34472584724426 seconds. Example on average in : 61.02616341227577 seconds. Time elapsed: 12815.553624629974. Time remaining (estim.): 0.0

@@ -35,7 +35,7 @@ and wait for 541 hours (or split the scripts into multiple processes if you have
 Run all cells in _04_cvmeasures.ipynb_, then checkout the logs folder, for time calculation.
 
 ## Other Information
-If you have problems with running the scripts contact [anonyomous2024@proton.me](mailto:anonyomous2024@proton.me) (no the "yo" is not a typo, copy the email address as is).
+If you have problems with running the scripts contact [sascha.kaltenpoth@uni-paderborn.de](mailto:sascha.kaltenpoth@uni-paderborn.de).
 There is a logs_BACKUP and results_backup folder for you to prevent original logs and results beeing overwritten.
 The wandb_sft_tracking.csv contains the tracking of the training runs.
-If you want to only get the measurements just start with the step 7. 
+If you want to only get the measurements just start with the step 6.

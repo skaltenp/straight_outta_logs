@@ -5,12 +5,14 @@ from tqdm import tqdm
 
 import torch
 from accelerate import Accelerator
-from datasets import load_dataset
+from datasets import load_dataset, concatenate_datasets
 from transformers import HfArgumentParser, set_seed, AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from peft import LoraConfig
 from trl import  SFTConfig, SFTTrainer
 from trl.trainer import ConstantLengthDataset
+import pm4py
 import wandb
+
 
 
 def chars_token_ratio(dataset, tokenizer, nb_examples=400):
@@ -45,6 +47,63 @@ def print_trainable_parameters(model):
     )
 
 
+def add_config(example, config):
+    example["config"] = config
+    return example
+
+def generate_train_test_datasets_with_config(ds):
+    return_ds = []
+    for file in list(set(ds["train"]["file"])):
+        file_ds = ds.filter(lambda x: x["file"] == file)
+        log_path = "tmpfile.xes"
+        with open(log_path, "w") as f:
+            f.write("<log>\n")
+            for i in range(len(file_ds["train"])):
+                f.write(file_ds["train"][i]["trace_text"])
+                f.write("\n")
+            f.write("</log>")
+        
+        df = pm4py.read_xes(log_path)
+        #allowed_events = df["concept:name"].unique().tolist()
+        #start_events = df.sort_values(by=["time:timestamp", "case:concept:name"]).drop_duplicates(subset=["case:concept:name"], keep="first")["concept:name"].unique().tolist()
+        #allowed_tuples = list(set(list(dfg_discovery.apply(df).keys())))
+
+        config = ""
+
+        config += "<trace_attribute_template>\n"
+        for column in [x for x in df.columns if "case:" in x]:
+            column_values = np.array(df[column].dropna().unique().tolist())
+            if column in ["case:concept:name", "concept:name"]:
+                config += f'\t<string key="{column}" value="[[string name values]]"/>\n'
+            elif "time" in str(type(column_values[0])) or "date" in str(type(column_values[0])):
+                config += f'\t<date key="{column}" value="[[timestamp values]]"/>\n'
+            elif "float" in str(column_values.dtype):
+                config += f'\t<float key="{column}" value="[[float values]]"/>\n'
+            elif "int" in str(column_values.dtype):
+                config += f'\t<int key="{column}" value="[[int values]]"/>\n'
+            else:
+                config += f'\t<string key="{column}" value="[[{"|".join([str(x) for x in column_values.tolist()])}]]"/>\n'
+        config += "</trace_attributes_template>\n"
+
+        config += "<event_attributes_template>\n"
+        for column in [x for x in df.columns if not "case:" in x]:
+            column_values = np.array(df[column].dropna().unique().tolist())
+            if column in ["case:concept:name", "concept:name"]:
+                config += f'\t<string key="{column}" value="[[{"|".join([str(x) for x in column_values.tolist()])}]]"/>\n'
+            elif "time" in str(type(column_values[0])) or "date" in str(type(column_values[0])):
+                config += f'\t<date key="{column}" value="[[timestamp values]]"/>\n'
+            elif "float" in str(column_values.dtype):
+                config += f'\t<float key="{column}" value="[[float values]]"/>\n'
+            elif "int" in str(column_values.dtype):
+                config += f'\t<int key="{column}" value="[[int values]]"/>\n'
+            else:
+                config += f'\t<string key="{column}" value="[[{"|".join([str(x) for x in column_values.tolist()])}]]"/>\n'
+        config += "</event_attributes_template>"
+        file_ds_config = file_ds.map(lambda example: add_config(example, config))
+        return_ds.append(file_ds_config)
+    return concatenate_datasets([ds["train"] for ds in return_ds]), concatenate_datasets([ds["test"] for ds in return_ds])
+
+
 def prepare_sample_text(example, tokenizer, remove_indent=False, start=None, end=None):
     """Prepare the text from a sample of the dataset."""
     thread = example["event_list"]
@@ -54,6 +113,16 @@ def prepare_sample_text(example, tokenizer, remove_indent=False, start=None, end
     for message in thread:
         text += f"{message}{tokenizer.eos_token}\n"
     return text
+
+# def prepare_sample_text(example, tokenizer, remove_indent=False, start=None, end=None):
+#     """Prepare the text from a sample of the dataset."""
+#     thread = example["event_list"]
+#     if start != None and end != None:
+#         thread = thread[start:end]
+#     text = ""
+#     for message in thread:
+#         text += f"{message}{tokenizer.eos_token}\n"
+#     return text
 
 
 def create_datasets(tokenizer, args):
@@ -66,6 +135,7 @@ def create_datasets(tokenizer, args):
     )
     test_dataset = dataset["test"] # DON'T use this for validation
     train_dataset = dataset["train"].train_test_split(test_size=0.2, seed=args.random_seed)
+    train_dataset = generate_train_test_datasets_with_config(train_dataset)
     valid_dataset = train_dataset["test"]
     train_dataset = train_dataset["train"]
 

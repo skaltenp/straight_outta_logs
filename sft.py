@@ -3,6 +3,8 @@ from dataclasses import dataclass, field
 from typing import Optional
 from tqdm import tqdm
 
+import numpy as np
+
 import torch
 from accelerate import Accelerator
 from datasets import load_dataset, concatenate_datasets
@@ -104,14 +106,17 @@ def generate_train_test_datasets_with_config(ds):
     return concatenate_datasets([ds["train"] for ds in return_ds]), concatenate_datasets([ds["test"] for ds in return_ds])
 
 
-def prepare_sample_text(example, tokenizer, remove_indent=False, start=None, end=None):
+def prepare_sample_text(example, tokenizer, prefix_length=5, start=None, end=None):
     """Prepare the text from a sample of the dataset."""
     thread = example["event_list"]
     if start != None and end != None:
         thread = thread[start:end]
     text = ""
-    for message in thread:
-        text += f"{message}{tokenizer.eos_token}\n"
+    for i in range(0, len(thread), prefix_length):
+        text_sample = f"{example['config']}{tokenizer.eos_token}\n"
+        for message in thread[i: i + prefix_length]:
+            text_sample += f"{message}{tokenizer.eos_token}\n"
+        text += text_sample + "\n"
     return text
 
 # def prepare_sample_text(example, tokenizer, remove_indent=False, start=None, end=None):
@@ -128,18 +133,23 @@ def prepare_sample_text(example, tokenizer, remove_indent=False, start=None, end
 def create_datasets(tokenizer, args):
     dataset = load_dataset(
         args.dataset_name,
-        args.fold_name,
+        #args.fold_name,
         token=True,
         num_proc=args.num_workers,
         download_mode='force_redownload'
     )
     test_dataset = dataset["test"] # DON'T use this for validation
     train_dataset = dataset["train"].train_test_split(test_size=0.2, seed=args.random_seed)
-    train_dataset = generate_train_test_datasets_with_config(train_dataset)
+    #train_dataset = generate_train_test_datasets_with_config(train_dataset)
+    #valid_dataset = train_dataset[1]
+    #train_dataset = train_dataset[0]
     valid_dataset = train_dataset["test"]
     train_dataset = train_dataset["train"]
 
-    chars_per_token = chars_token_ratio(train_dataset, tokenizer)
+
+    print(train_dataset)
+
+    chars_per_token = max(chars_token_ratio(train_dataset, tokenizer), 3)
     print(f"The character to token ratio of the dataset is: {chars_per_token:.2f}")
 
     print(f"Size of the train set: {len(train_dataset)}. Size of the validation set: {len(valid_dataset)}")
@@ -148,11 +158,11 @@ def create_datasets(tokenizer, args):
 
 @dataclass
 class ScriptArguments:
-    model_name: Optional[str] = field(default="meta-llama/Meta-Llama-3-8B", metadata={"help": "the model name"})
+    model_name: Optional[str] = field(default="Qwen/Qwen3-0.6B-Base", metadata={"help": "the model name"})
     report_to: Optional[str] = field(default="none", metadata={"help": "use 'wandb' to log with wandb"})
     random_seed: Optional[int] = field(default=42, metadata={"help": "random seed for model training"})
 
-    dataset_name: Optional[str] = field(default="skaltenp/sepsis_cases", metadata={"help": "dataset name"})
+    dataset_name: Optional[str] = field(default="skaltenp/global_event_logs_test", metadata={"help": "dataset name"})
     fold_name: Optional[str] = field(default="cv_split0", metadata={"help": "name of the fold"})
     use_fast_tokenizer: Optional[bool] = field(default=True, metadata={"help": "whether to use a fast tokenizer"})
     steps_factor: Optional[int] = field(default=4, metadata={"help": "the number to divide the whole epoch for eval, log, and save steps calculation"})
@@ -290,7 +300,6 @@ def main():
         trainer.save_model(script_args.output_dir)
         output_dir = os.path.join(script_args.output_dir, "final_checkpoint")
         trainer.model.save_pretrained(output_dir)
-
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,27 @@
+<trace_attribute_template>
+	<string key="case:Permit travel permit number" value="[[string values]]"/>
+	<string key="case:DeclarationNumber" value="[[string values]]"/>
+	<float key="case:Amount" value="[[float values]]"/>
+	<float key="case:RequestedAmount" value="[[float values]]"/>
+	<string key="case:Permit TaskNumber" value="[[UNKNOWN|task 427|task 13772|task 648|task 7355|task 26077]]"/>
+	<string key="case:Permit BudgetNumber" value="[[string values]]"/>
+	<float key="case:OriginalAmount" value="[[float values]]"/>
+	<string key="case:Permit ProjectNumber" value="[[string values]]"/>
+	<string key="case:concept:name" value="[[string name values]]"/>
+	<string key="case:Permit OrganizationalEntity" value="[[organizational unit 65458|organizational unit 65455|organizational unit 65454|organizational unit 65457|organizational unit 65460|organizational unit 65459|organizational unit 65466|organizational unit 65456|organizational unit 65465|organizational unit 65464|organizational unit 65469|organizational unit 65472|organizational unit 65470|organizational unit 65467|organizational unit 65473|organizational unit 65461|organizational unit 65475|organizational unit 65471|organizational unit 65482|organizational unit 65486|organizational unit 65478|organizational unit 65480|organizational unit 65477|organizational unit 65488|organizational unit 65484|organizational unit 65468]]"/>
+	<string key="case:travel permit number" value="[[string values]]"/>
+	<float key="case:Permit RequestedBudget" value="[[float values]]"/>
+	<string key="case:id" value="[[string values]]"/>
+	<string key="case:Permit ID" value="[[string values]]"/>
+	<string key="case:Permit id" value="[[string values]]"/>
+	<string key="case:BudgetNumber" value="[[string values]]"/>
+	<string key="case:Permit ActivityNumber" value="[[string values]]"/>
+	<float key="case:AdjustedAmount" value="[[float values]]"/>
+</trace_attributes_template>
+<event_attributes_template>
+	<string key="id" value="[[string values]]"/>
+	<string key="org:resource" value="[[STAFF MEMBER|SYSTEM]]"/>
+	<string key="concept:name" value="[[Start trip|End trip|Permit SUBMITTED by EMPLOYEE|Permit FINAL_APPROVED by SUPERVISOR|Declaration SUBMITTED by EMPLOYEE|Declaration FINAL_APPROVED by SUPERVISOR|Request Payment|Payment Handled|Permit APPROVED by SUPERVISOR|Permit FINAL_APPROVED by DIRECTOR|Declaration APPROVED by PRE_APPROVER|Permit APPROVED by PRE_APPROVER|Declaration REJECTED by PRE_APPROVER|Declaration REJECTED by EMPLOYEE|Declaration SAVED by EMPLOYEE|Permit REJECTED by MISSING|Declaration REJECTED by SUPERVISOR|Declaration REJECTED by MISSING|Declaration APPROVED by SUPERVISOR|Declaration FINAL_APPROVED by DIRECTOR|Declaration REJECTED by DIRECTOR|Permit REJECTED by SUPERVISOR|Permit REJECTED by EMPLOYEE|Permit APPROVED by ADMINISTRATION|Send Reminder|Declaration APPROVED by ADMINISTRATION|Declaration APPROVED by BUDGET OWNER|Permit REJECTED by PRE_APPROVER|Declaration REJECTED by ADMINISTRATION|Permit APPROVED by BUDGET OWNER|Permit REJECTED by ADMINISTRATION|Declaration REJECTED by BUDGET OWNER|Permit REJECTED by BUDGET OWNER|Permit REJECTED by DIRECTOR]]"/>
+	<date key="time:timestamp" value="[[timestamp values]]"/>
+	<string key="org:role" value="[[EMPLOYEE|SUPERVISOR|UNDEFINED|DIRECTOR|PRE_APPROVER|MISSING|ADMINISTRATION|BUDGET OWNER]]"/>
+</event_attributes_template>

@@ -1,0 +1,19 @@
+<trace_attribute_template>
+	<date key="case:startdate" value="[[timestamp values]]"/>
+	<string key="case:responsible" value="[[Resource21|Resource04|Resource11|admin3|Resource06|Resource22|Resource13|admin1|Resource20|Resource01|Resource05|Resource02|Resource12|Resource03|Resource09|Resource23|Resource14|Resource08|Resource26|test|Resource35|Resource28|Resource07|Resource40|Resource18|Resource17|Resource15|Resource25|Resource34|Resource37|Resource52|Resource32|Resource53|Resource29|Resource24|Resource33|Resource50|Resource54]]"/>
+	<date key="case:enddate_planned" value="[[timestamp values]]"/>
+	<string key="case:department" value="[[General|Customer contact|Experts]]"/>
+	<string key="case:group" value="[[Group 2|Group 5|Group 8|Group 7|Group 11|Group 6|Group 10]]"/>
+	<string key="case:concept:name" value="[[string name values]]"/>
+	<date key="case:deadline" value="[[timestamp values]]"/>
+	<string key="case:channel" value="[[Internet|Desk|Post|e-mail]]"/>
+	<date key="case:enddate" value="[[timestamp values]]"/>
+</trace_attributes_template>
+<event_attributes_template>
+	<string key="org:group" value="[[Group 1|Group 4|EMPTY|Group 3|Group 2|Group 13|Group 14|Group 12|Group 15]]"/>
+	<string key="concept:instance" value="[[string values]]"/>
+	<string key="org:resource" value="[[Resource21|Resource10|Resource30|admin2|Resource03|Resource06|Resource22|Resource20|Resource13|Resource02|admin1|Resource05|Resource12|Resource01|Resource32|Resource09|Resource23|Resource14|Resource16|Resource27|Resource26|Resource24|Resource08|Resource04|Resource35|Resource42|Resource28|Resource07|Resource11|Resource18|Resource19|Resource15|Resource17|Resource34|Resource39|Resource25|Resource33|Resource38|Resource37|Resource43|admin3|Resource31|TEST|test|Resource29]]"/>
+	<string key="concept:name" value="[[Confirmation of receipt|T02 Check confirmation of receipt|T03 Adjust confirmation of receipt|T06 Determine necessity of stop advice|T10 Determine necessity to stop indication|T04 Determine confirmation of receipt|T05 Print and send confirmation of receipt|T16 Report reasons to hold request|T17 Check report Y to stop indication|T19 Determine report Y to stop indication|T20 Print report Y to stop indication|T11 Create document X request unlicensed|T12 Check document X request unlicensed|T14 Determine document X request unlicensed|T15 Print document X request unlicensed|T07-1 Draft intern advice aspect 1|T08 Draft and send request for advice|T09-1 Process or receive external advice from party 1|T07-5 Draft intern advice aspect 5|T09-4 Process or receive external advice from party 4|T07-3 Draft intern advice hold for aspect 3|T07-4 Draft internal advice to hold for type 4|T07-2 Draft intern advice aspect 2|T13 Adjust document X request unlicensed|T09-3 Process or receive external advice from party 3|T18 Adjust report Y to stop indicition|T09-2 Process or receive external advice from party 2]]"/>
+	<date key="time:timestamp" value="[[timestamp values]]"/>
+	<string key="lifecycle:transition" value="[[complete]]"/>
+</event_attributes_template>

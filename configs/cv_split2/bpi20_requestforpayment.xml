@@ -1,0 +1,18 @@
+<trace_attribute_template>
+	<string key="case:Rfp_id" value="[[string values]]"/>
+	<string key="case:Project" value="[[string values]]"/>
+	<string key="case:Task" value="[[string values]]"/>
+	<string key="case:concept:name" value="[[string name values]]"/>
+	<string key="case:OrganizationalEntity" value="[[organizational unit 65458|organizational unit 65463|organizational unit 65457|organizational unit 65482|organizational unit 65462|organizational unit 65460|organizational unit 65467|organizational unit 65466|organizational unit 65455|organizational unit 65476|organizational unit 65475|organizational unit 65477|organizational unit 65456|organizational unit 65454|organizational unit 65469|organizational unit 65465|organizational unit 65468|organizational unit 65461|organizational unit 65473|organizational unit 65480|organizational unit 65472|organizational unit 65488|organizational unit 65479|organizational unit 65485|organizational unit 65489|organizational unit 65484|organizational unit 65487|organizational unit 65464|organizational unit 65486|organizational unit 65474|organizational unit 65481|organizational unit 65471|organizational unit 65470|organizational unit 65478|organizational unit 65491|organizational unit 65490]]"/>
+	<int key="case:Cost Type" value="[[int values]]"/>
+	<float key="case:RequestedAmount" value="[[float values]]"/>
+	<string key="case:Activity" value="[[UNKNOWN|activity 505|activity 13776|activity 21016|activity 181118]]"/>
+	<string key="case:RfpNumber" value="[[string values]]"/>
+</trace_attributes_template>
+<event_attributes_template>
+	<string key="id" value="[[string values]]"/>
+	<string key="org:resource" value="[[STAFF MEMBER|SYSTEM]]"/>
+	<string key="concept:name" value="[[Request For Payment SUBMITTED by EMPLOYEE|Request For Payment FINAL_APPROVED by SUPERVISOR|Request Payment|Payment Handled|Request For Payment REJECTED by SUPERVISOR|Request For Payment REJECTED by EMPLOYEE|Request For Payment REJECTED by MISSING|Request For Payment APPROVED by PRE_APPROVER|Request For Payment APPROVED by SUPERVISOR|Request For Payment FINAL_APPROVED by DIRECTOR|Request For Payment REJECTED by PRE_APPROVER|Request For Payment SAVED by EMPLOYEE|Request For Payment REJECTED by ADMINISTRATION|Request For Payment APPROVED by ADMINISTRATION|Request For Payment APPROVED by BUDGET OWNER|Request For Payment REJECTED by BUDGET OWNER|Request For Payment FOR_APPROVAL by ADMINISTRATION|Request For Payment FINAL_APPROVED by BUDGET OWNER|Request For Payment FOR_APPROVAL by SUPERVISOR]]"/>
+	<date key="time:timestamp" value="[[timestamp values]]"/>
+	<string key="org:role" value="[[EMPLOYEE|SUPERVISOR|UNDEFINED|MISSING|PRE_APPROVER|DIRECTOR|ADMINISTRATION|BUDGET OWNER]]"/>
+</event_attributes_template>

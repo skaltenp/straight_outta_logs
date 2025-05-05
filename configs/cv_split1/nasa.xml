@@ -1,0 +1,22 @@
+<trace_attribute_template>
+	<string key="case:concept:name" value="[[string name values]]"/>
+	<string key="case:swevent:type" value="[[normal]]"/>
+</trace_attributes_template>
+<event_attributes_template>
+	<string key="apploc:filename" value="[[CEV.java|ErrorLog.java|Failures.java|Spacecraft.java]]"/>
+	<string key="org:resource" value="[[1]]"/>
+	<string key="apploc:node" value="[[0.1-SNAPSHOT]]"/>
+	<string key="apploc:linenr" value="[[20|29|31|24|1|36|158|176|37|42|144|49|122|53|153|150|75|172|85|162|163|190|195|242|104|43|182|185|213|166|179|140|133|200|95|132|66|196|90|99|136|71|112|60|186|100]]"/>
+	<string key="concept:name" value="[[cev.CEV()|cev.ErrorLog()|cev.Failures(cev.ErrorLog)|cev.Failures$Type(java.lang.String,int)|cev.Failures$Type.values()|cev.Spacecraft(cev.Failures,cev.ErrorLog)|cev.CEV.tliBurn()|cev.Spacecraft.readyForTliBurn()|cev.ErrorLog.log(java.lang.String)|cev.ErrorLog.last()|cev.CEV.completion()|cev.Failures.noLAS_CNTRLfailure()|cev.Spacecraft.doLowActiveAbort()|cev.Failures.noEARTH_SENSORfailure()|cev.CEV.lsamRendezvous()|cev.Spacecraft.readyForLSAMrendezvous()|cev.Spacecraft.doLSAMrendezvous()|cev.CEV.edsSeparation()|cev.Spacecraft.doEDSseparation()|cev.CEV.deOrbit()|cev.Spacecraft.readyForDeorbit()|cev.CEV.eiBurn(boolean,boolean)|cev.Spacecraft.readyForEiBurn()|cev.Spacecraft.configurationsize()|cev.Spacecraft.doEiBurn(boolean,boolean)|cev.Failures.setCM_RCSfailure()|cev.CEV.teiBurn()|cev.Spacecraft.readyForTeiBurn()|cev.Spacecraft.configuration()|cev.CEV.enterOrbitOps()|cev.CEV.lsamSeparation()|cev.CEV.abortPassiveLAScompletion()|cev.Spacecraft.doLowPassiveAbort()|cev.CEV.lsamAscentRendezvous()|cev.Spacecraft.doLSAMascentRendezvous()|cev.CEV.lasJettison()|cev.Spacecraft.doLASjettison()|cev.CEV.lsamAscentBurn()|cev.Spacecraft.doLSAMascentBurn()|cev.CEV.srbIgnition()|cev.CEV.loiBurn()|cev.CEV.stage2Separation()|cev.Spacecraft.doStage2Separation()|cev.CEV.stage1Separation()|cev.Spacecraft.doStage1Separation()|cev.CEV.smSeparation()|cev.Spacecraft.doSMseparation()]]"/>
+	<string key="apploc:tier" value="[[symdym-examples]]"/>
+	<string key="apploc:app" value="[[symdym]]"/>
+	<string key="apprun:threadid" value="[[1]]"/>
+	<string key="apploc:joinpoint" value="[[cev.CEV()|cev.ErrorLog()|cev.Failures(cev.ErrorLog)|cev.Failures$Type(java.lang.String,int)|cev.Failures$Type.values()|cev.Spacecraft(cev.Failures,cev.ErrorLog)|cev.CEV.tliBurn()|cev.Spacecraft.readyForTliBurn()|cev.ErrorLog.log(java.lang.String)|cev.ErrorLog.last()|cev.CEV.completion()|cev.Failures.noLAS_CNTRLfailure()|cev.Spacecraft.doLowActiveAbort()|cev.Failures.noEARTH_SENSORfailure()|cev.CEV.lsamRendezvous()|cev.Spacecraft.readyForLSAMrendezvous()|cev.Spacecraft.doLSAMrendezvous()|cev.CEV.edsSeparation()|cev.Spacecraft.doEDSseparation()|cev.CEV.deOrbit()|cev.Spacecraft.readyForDeorbit()|cev.CEV.eiBurn(boolean,boolean)|cev.Spacecraft.readyForEiBurn()|cev.Spacecraft.configurationsize()|cev.Spacecraft.doEiBurn(boolean,boolean)|cev.Failures.setCM_RCSfailure()|cev.CEV.teiBurn()|cev.Spacecraft.readyForTeiBurn()|cev.Spacecraft.configuration()|cev.CEV.enterOrbitOps()|cev.CEV.lsamSeparation()|cev.CEV.abortPassiveLAScompletion()|cev.Spacecraft.doLowPassiveAbort()|cev.CEV.lsamAscentRendezvous()|cev.Spacecraft.doLSAMascentRendezvous()|cev.CEV.lasJettison()|cev.Spacecraft.doLASjettison()|cev.CEV.lsamAscentBurn()|cev.Spacecraft.doLSAMascentBurn()|cev.CEV.srbIgnition()|cev.CEV.loiBurn()|cev.CEV.stage2Separation()|cev.Spacecraft.doStage2Separation()|cev.CEV.stage1Separation()|cev.Spacecraft.doStage1Separation()|cev.CEV.smSeparation()|cev.Spacecraft.doSMseparation()]]"/>
+	<date key="time:timestamp" value="[[timestamp values]]"/>
+	<string key="lifecycle:transition" value="[[start|complete]]"/>
+	<string key="apploc:etype" value="[[call_new|return_new|call|return|throw]]"/>
+	<string key="apprun:nanotime" value="[[string values]]"/>
+	<string key="apploc:regionstr" value="[[]]"/>
+	<string key="apprun:excatchtype" value="[[<uncaught>]]"/>
+	<string key="apprun:exthrowtype" value="[[java.lang.AssertionError]]"/>
+</event_attributes_template>

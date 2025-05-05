@@ -1,0 +1,23 @@
+<trace_attribute_template>
+	<string key="case:LoanGoal" value="[[Existing loan takeover|Home improvement|Car|Other, see explanation|Remaining debt home|Not speficied|Unknown|Caravan / Camper|Tax payments|Extra spending limit|Motorcycle|Boat|Business goal|Debt restructuring]]"/>
+	<string key="case:ApplicationType" value="[[New credit|Limit raise]]"/>
+	<string key="case:concept:name" value="[[string name values]]"/>
+	<float key="case:RequestedAmount" value="[[float values]]"/>
+</trace_attributes_template>
+<event_attributes_template>
+	<string key="Action" value="[[Created|statechange|Deleted|Obtained|Released]]"/>
+	<string key="org:resource" value="[[string values]]"/>
+	<string key="concept:name" value="[[A_Create Application|A_Submitted|W_Handle leads|W_Complete application|A_Concept|A_Accepted|O_Create Offer|O_Created|O_Sent (mail and online)|W_Call after offers|A_Complete|W_Validate application|A_Validating|O_Returned|W_Call incomplete files|A_Incomplete|O_Accepted|A_Pending|A_Denied|O_Refused|O_Cancelled|A_Cancelled|O_Sent (online only)|W_Assess potential fraud|W_Personal Loan collection|W_Shortened completion ]]"/>
+	<string key="EventOrigin" value="[[Application|Workflow|Offer]]"/>
+	<string key="EventID" value="[[string values]]"/>
+	<string key="lifecycle:transition" value="[[complete|schedule|withdraw|start|suspend|ate_abort|resume]]"/>
+	<date key="time:timestamp" value="[[timestamp values]]"/>
+	<float key="FirstWithdrawalAmount" value="[[float values]]"/>
+	<float key="NumberOfTerms" value="[[float values]]"/>
+	<string key="Accepted" value="[[True|False]]"/>
+	<float key="MonthlyCost" value="[[float values]]"/>
+	<string key="Selected" value="[[True|False]]"/>
+	<float key="CreditScore" value="[[float values]]"/>
+	<float key="OfferedAmount" value="[[float values]]"/>
+	<string key="OfferID" value="[[string values]]"/>
+</event_attributes_template>

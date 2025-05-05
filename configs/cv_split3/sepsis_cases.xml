@@ -1,0 +1,36 @@
+<trace_attribute_template>
+	<string key="case:concept:name" value="[[string name values]]"/>
+</trace_attributes_template>
+<event_attributes_template>
+	<string key="InfectionSuspected" value="[[True|False]]"/>
+	<string key="org:group" value="[[A|B|C|D|E|F|G|H|?|I|J|K|N|O|P|Q|M|R|L|T|U|S|V|W|X|Y]]"/>
+	<string key="DiagnosticBlood" value="[[True|False]]"/>
+	<string key="DisfuncOrg" value="[[True|False]]"/>
+	<string key="SIRSCritTachypnea" value="[[True|False]]"/>
+	<string key="Hypotensie" value="[[True|False]]"/>
+	<string key="SIRSCritHeartRate" value="[[True|False]]"/>
+	<string key="Infusion" value="[[True|False]]"/>
+	<string key="DiagnosticArtAstrup" value="[[True|False]]"/>
+	<string key="concept:name" value="[[ER Registration|Leucocytes|CRP|LacticAcid|ER Triage|ER Sepsis Triage|IV Liquid|IV Antibiotics|Admission NC|Release A|Return ER|Admission IC|Release B|Release C|Release D|Release E]]"/>
+	<float key="Age" value="[[float values]]"/>
+	<string key="DiagnosticIC" value="[[True|False]]"/>
+	<string key="DiagnosticSputum" value="[[False|True]]"/>
+	<string key="DiagnosticLiquor" value="[[False|True]]"/>
+	<string key="DiagnosticOther" value="[[False|True]]"/>
+	<string key="SIRSCriteria2OrMore" value="[[True|False]]"/>
+	<string key="DiagnosticXthorax" value="[[True|False]]"/>
+	<string key="SIRSCritTemperature" value="[[True|False]]"/>
+	<date key="time:timestamp" value="[[timestamp values]]"/>
+	<string key="DiagnosticUrinaryCulture" value="[[True|False]]"/>
+	<string key="SIRSCritLeucos" value="[[False|True]]"/>
+	<string key="Oligurie" value="[[False|True]]"/>
+	<string key="DiagnosticLacticAcid" value="[[True|False]]"/>
+	<string key="lifecycle:transition" value="[[complete]]"/>
+	<string key="Diagnose" value="[[string values]]"/>
+	<string key="Hypoxie" value="[[False|True]]"/>
+	<string key="DiagnosticUrinarySediment" value="[[True|False]]"/>
+	<string key="DiagnosticECG" value="[[True|False]]"/>
+	<float key="Leucocytes" value="[[float values]]"/>
+	<float key="CRP" value="[[float values]]"/>
+	<float key="LacticAcid" value="[[float values]]"/>
+</event_attributes_template>

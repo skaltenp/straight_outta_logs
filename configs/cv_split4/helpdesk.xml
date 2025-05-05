@@ -1,0 +1,17 @@
+<trace_attribute_template>
+	<string key="case:concept:name" value="[[string name values]]"/>
+</trace_attributes_template>
+<event_attributes_template>
+	<string key="concept:name" value="[[Assign seriousness|Take in charge ticket|Resolve ticket|Closed|Insert ticket|Wait|Create SW anomaly|Require upgrade|VERIFIED|DUPLICATE|Resolve SW anomaly|Schedule intervention|RESOLVED|INVALID]]"/>
+	<string key="org:resource" value="[[Value 1|Value 2|Value 3|Value 4|Value 5|Value 6|Value 7|Value 11|Value 12|Value 13|Value 9|Value 14|Value 8|Value 15|Value 16|Value 10|Value 17|Value 19|Value 18|Value 21|Value 20|Value 22]]"/>
+	<date key="time:timestamp" value="[[timestamp values]]"/>
+	<string key="seriousness" value="[[Value 1]]"/>
+	<string key="customer" value="[[string values]]"/>
+	<string key="product" value="[[Value 1|Value 2|Value 3|Value 4|Value 5|Value 6|Value 8|Value 9|Value 10|Value 12|Value 13|Value 11|Value 7|Value 16|Value 17|Value 14|Value 18|Value 19|Value 20|Value 15|Value 21]]"/>
+	<string key="responsible_section" value="[[Value 1|Value 4|Value 5|Value 2|Value 6|Value 3|Value 7]]"/>
+	<string key="seriousness_2" value="[[Value 1|Value 2|Value 3|Value 4]]"/>
+	<string key="service_level" value="[[Value 1|Value 2|Value 4|Value 3]]"/>
+	<string key="service_type" value="[[Value 1|Value 2|Value 3|Value 4]]"/>
+	<string key="support_section" value="[[Value 1|Value 3|Value 4|Value 5|Value 2|Value 6]]"/>
+	<string key="workgroup" value="[[Value 1|Value 2|Value 3|Value 4]]"/>
+</event_attributes_template>

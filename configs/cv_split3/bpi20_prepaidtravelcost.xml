@@ -1,0 +1,26 @@
+<trace_attribute_template>
+	<string key="case:Rfp_id" value="[[string values]]"/>
+	<string key="case:Permit travel permit number" value="[[string values]]"/>
+	<string key="case:Task" value="[[string values]]"/>
+	<string key="case:OrganizationalEntity" value="[[organizational unit 65463|organizational unit 65458|organizational unit 65476|organizational unit 65457|organizational unit 65454|organizational unit 65456|organizational unit 65469|organizational unit 65462|organizational unit 65461|organizational unit 65468|organizational unit 65465|organizational unit 65475|organizational unit 65478|organizational unit 65471|organizational unit 65472|organizational unit 65482|organizational unit 65487|organizational unit 65485|organizational unit 65481|organizational unit 65466|organizational unit 65488|organizational unit 65455|organizational unit 65477|organizational unit 65480|organizational unit 65473|organizational unit 65479]]"/>
+	<float key="case:RequestedAmount" value="[[float values]]"/>
+	<string key="case:Activity" value="[[activity 505|UNKNOWN|activity 13776|activity 21016|activity 22452]]"/>
+	<string key="case:Permit TaskNumber" value="[[UNKNOWN|task 427|task 13772|task 648|task 7355]]"/>
+	<string key="case:Permit BudgetNumber" value="[[string values]]"/>
+	<string key="case:Permit ProjectNumber" value="[[string values]]"/>
+	<string key="case:Project" value="[[project 503|UNKNOWN|project 147531|project 147551|project 147546|project 147701|project 148052|project 147649|project 147620|project 151278|project 164433|project 147572|project 150968|project 147843|project 147556|project 147860|project 151211|project 147582|project 152803|project 155217|project 148982|project 148681|project 150197|project 149147]]"/>
+	<string key="case:concept:name" value="[[string name values]]"/>
+	<string key="case:Permit OrganizationalEntity" value="[[organizational unit 65455|organizational unit 65458|organizational unit 65454|UNKNOWN|organizational unit 65460|organizational unit 65457|organizational unit 65462|organizational unit 65456|organizational unit 65466|organizational unit 65464|organizational unit 65459|organizational unit 65470|organizational unit 65465|organizational unit 65461|organizational unit 65472|organizational unit 65471|organizational unit 65469|organizational unit 65480|organizational unit 65484|organizational unit 65477|organizational unit 65475|organizational unit 65468]]"/>
+	<float key="case:Permit RequestedBudget" value="[[float values]]"/>
+	<int key="case:Cost Type" value="[[int values]]"/>
+	<string key="case:Permit id" value="[[string values]]"/>
+	<string key="case:Permit ActivityNumber" value="[[string values]]"/>
+	<string key="case:RfpNumber" value="[[string values]]"/>
+</trace_attributes_template>
+<event_attributes_template>
+	<string key="id" value="[[string values]]"/>
+	<string key="org:resource" value="[[STAFF MEMBER|SYSTEM]]"/>
+	<string key="concept:name" value="[[Permit SUBMITTED by EMPLOYEE|Permit FINAL_APPROVED by SUPERVISOR|Request For Payment SUBMITTED by EMPLOYEE|Request For Payment FINAL_APPROVED by SUPERVISOR|Request Payment|Payment Handled|Permit REJECTED by MISSING|Permit APPROVED by SUPERVISOR|Permit FINAL_APPROVED by DIRECTOR|Request For Payment APPROVED by PRE_APPROVER|Permit APPROVED by PRE_APPROVER|Request For Payment REJECTED by PRE_APPROVER|Request For Payment REJECTED by EMPLOYEE|Request For Payment REJECTED by MISSING|Permit REJECTED by PRE_APPROVER|Permit REJECTED by EMPLOYEE|Permit REJECTED by SUPERVISOR|Request For Payment APPROVED by SUPERVISOR|Request For Payment FINAL_APPROVED by DIRECTOR|Request For Payment REJECTED by SUPERVISOR|Request For Payment SAVED by EMPLOYEE|Request For Payment APPROVED by ADMINISTRATION|Request For Payment APPROVED by BUDGET OWNER|Request For Payment REJECTED by ADMINISTRATION|Permit APPROVED by ADMINISTRATION|Permit APPROVED by BUDGET OWNER|Permit REJECTED by ADMINISTRATION|Request For Payment REJECTED by BUDGET OWNER|Permit REJECTED by BUDGET OWNER]]"/>
+	<date key="time:timestamp" value="[[timestamp values]]"/>
+	<string key="org:role" value="[[EMPLOYEE|SUPERVISOR|UNDEFINED|MISSING|DIRECTOR|PRE_APPROVER|ADMINISTRATION|BUDGET OWNER]]"/>
+</event_attributes_template>

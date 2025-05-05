@@ -1,0 +1,16 @@
+<trace_attribute_template>
+	<string key="case:concept:name" value="[[string name values]]"/>
+</trace_attributes_template>
+<event_attributes_template>
+	<string key="org:group" value="[[Org line A2|Org line V7n|Org line C|Org line V2|Org line V11|Org line G3|Org line F|Org line G4|Org line B|Org line D|Org line V5|Org line G1|Other|Org line V4]]"/>
+	<string key="resource country" value="[[INDIA|Sweden|China|Netherlands|POLAND|Belgium|United Kingdom|Denmark|USA|France|0|Brazil|Korea|Germany|THAILAND|Canada|Japan|Czech Republic|MALAYSIA]]"/>
+	<string key="organization country" value="[[se|cn|nl|pl|be|gb|us|in|fr|br|kr|0|de|ca|jp]]"/>
+	<string key="org:resource" value="[[string values]]"/>
+	<string key="organization involved" value="[[string values]]"/>
+	<string key="org:role" value="[[A2_2|A2_1|E_10|C_6|E_3|C_5|A2_4|A2_3|E_4|D_1|V3_3|V8_1|E_6|E_7|C_4|E_1|C_3|V3_2|E_8|A2_5|C_2|E_5|D_2|C_1|E_2|E_9]]"/>
+	<string key="concept:name" value="[[Queued|Accepted|Completed|Unmatched]]"/>
+	<string key="impact" value="[[High|Medium|Low|Major]]"/>
+	<string key="product" value="[[string values]]"/>
+	<string key="lifecycle:transition" value="[[Awaiting Assignment|In Progress|Assigned|Closed|Wait|Unmatched|Cancelled]]"/>
+	<date key="time:timestamp" value="[[timestamp values]]"/>
+</event_attributes_template>

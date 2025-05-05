@@ -1,0 +1,14 @@
+<trace_attribute_template>
+	<string key="case:id" value="[[string values]]"/>
+	<string key="case:concept:name" value="[[string name values]]"/>
+	<string key="case:BudgetNumber" value="[[budget 86566]]"/>
+	<string key="case:DeclarationNumber" value="[[string values]]"/>
+	<float key="case:Amount" value="[[float values]]"/>
+</trace_attributes_template>
+<event_attributes_template>
+	<string key="id" value="[[string values]]"/>
+	<string key="org:resource" value="[[STAFF MEMBER|SYSTEM]]"/>
+	<string key="concept:name" value="[[Declaration SUBMITTED by EMPLOYEE|Declaration FINAL_APPROVED by SUPERVISOR|Request Payment|Payment Handled|Declaration APPROVED by PRE_APPROVER|Declaration REJECTED by MISSING|Declaration REJECTED by PRE_APPROVER|Declaration REJECTED by EMPLOYEE|Declaration SAVED by EMPLOYEE|Declaration REJECTED by SUPERVISOR|Declaration APPROVED by ADMINISTRATION|Declaration APPROVED by BUDGET OWNER|Declaration FOR_APPROVAL by SUPERVISOR|Declaration REJECTED by ADMINISTRATION|Declaration FOR_APPROVAL by PRE_APPROVER|Declaration REJECTED by BUDGET OWNER|Declaration FOR_APPROVAL by ADMINISTRATION]]"/>
+	<date key="time:timestamp" value="[[timestamp values]]"/>
+	<string key="org:role" value="[[EMPLOYEE|SUPERVISOR|UNDEFINED|PRE_APPROVER|MISSING|ADMINISTRATION|BUDGET OWNER]]"/>
+</event_attributes_template>

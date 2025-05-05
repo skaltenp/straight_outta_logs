@@ -1,0 +1,177 @@
+<trace_attribute_template>
+	<string key="case:OrganizationalEntity" value="[[organizational unit 65458|organizational unit 65455|organizational unit 65457|organizational unit 65460|organizational unit 65459|organizational unit 65466|organizational unit 65456|organizational unit 65465|organizational unit 65464|organizational unit 65454|organizational unit 65469|organizational unit 65472|organizational unit 65470|organizational unit 65462|organizational unit 65467|organizational unit 65474|organizational unit 65461|organizational unit 65473|organizational unit 65475|organizational unit 65471|organizational unit 65482|organizational unit 65477|organizational unit 65486|organizational unit 65478|organizational unit 65480|organizational unit 65488|organizational unit 65483|organizational unit 65484|organizational unit 65468]]"/>
+	<string key="case:ProjectNumber" value="[[string values]]"/>
+	<string key="case:TaskNumber" value="[[UNKNOWN|task 427|task 13772|task 648|task 7355|task 26077]]"/>
+	<string key="case:dec_id_0" value="[[string values]]"/>
+	<string key="case:ActivityNumber" value="[[string values]]"/>
+	<float key="case:TotalDeclared" value="[[float values]]"/>
+	<string key="case:concept:name" value="[[string name values]]"/>
+	<string key="case:RequestedAmount_0" value="[[string values]]"/>
+	<string key="case:Overspent" value="[[False|True]]"/>
+	<string key="case:travel permit number" value="[[string values]]"/>
+	<string key="case:DeclarationNumber_0" value="[[string values]]"/>
+	<string key="case:id" value="[[string values]]"/>
+	<float key="case:RequestedBudget" value="[[float values]]"/>
+	<string key="case:BudgetNumber" value="[[string values]]"/>
+	<float key="case:OverspentAmount" value="[[float values]]"/>
+	<string key="case:dec_id_5" value="[[declaration 73574|declaration 80550|declaration 4548|declaration 53356|declaration 64244|declaration 66607|declaration 66022|declaration 2514|declaration 45630|declaration 13806|declaration 42544|declaration 33332|declaration 47329|declaration 32187|declaration 25693|declaration 56150|declaration 62160|declaration 64574|declaration 20341|declaration 63690|declaration 67429]]"/>
+	<string key="case:dec_id_6" value="[[declaration 73576|declaration 4550|declaration 53358|declaration 64246|declaration 2516|declaration 57195|declaration 45631|declaration 25695|declaration 28772|declaration 56151|declaration 64576|declaration 67431]]"/>
+	<string key="case:dec_id_3" value="[[string values]]"/>
+	<string key="case:dec_id_4" value="[[declaration 73572|declaration 76938|declaration 72431|declaration 80548|declaration 80128|declaration 86027|declaration 83801|declaration 81235|declaration 84356|declaration 4546|declaration 53354|declaration 64105|declaration 64242|declaration 66605|declaration 66020|declaration 6842|declaration 9357|declaration 7621|declaration 2512|declaration 6496|declaration 3109|declaration 9995|declaration 27415|declaration 44517|declaration 32387|declaration 15190|declaration 41826|declaration 40573|declaration 45628|declaration 45682|declaration 13804|declaration 45156|declaration 32185|declaration 36662|declaration 37795|declaration 28651|declaration 71446|declaration 56148|declaration 62680|declaration 63688|declaration 19322|declaration 67427|declaration 10240|declaration 10394|declaration 28818]]"/>
+	<string key="case:dec_id_1" value="[[string values]]"/>
+	<string key="case:dec_id_2" value="[[string values]]"/>
+	<string key="case:DeclarationNumber_10" value="[[declaration number 73585|declaration number 53367]]"/>
+	<string key="case:RequestedAmount_16" value="[[18]]"/>
+	<string key="case:RequestedAmount_14" value="[[191|2765.1861261511863]]"/>
+	<string key="case:RequestedAmount_15" value="[[153]]"/>
+	<string key="case:dec_id_9" value="[[declaration 73582|declaration 53364|declaration 45637]]"/>
+	<string key="case:RequestedAmount_12" value="[[219|140|1999.274128302682]]"/>
+	<string key="case:DeclarationNumber_14" value="[[declaration number 73593]]"/>
+	<string key="case:DeclarationNumber_13" value="[[declaration number 73591|declaration number 53373]]"/>
+	<string key="case:RequestedAmount_13" value="[[297|409|175.71416855141317]]"/>
+	<string key="case:dec_id_7" value="[[declaration 73578|declaration 53360|declaration 57197|declaration 45633|declaration 67433]]"/>
+	<string key="case:RequestedAmount_10" value="[[242|604|2866.074643979749|2036.5653624275842]]"/>
+	<string key="case:DeclarationNumber_12" value="[[declaration number 73589|declaration number 53371]]"/>
+	<string key="case:dec_id_8" value="[[declaration 73580|declaration 53362|declaration 57199|declaration 45635]]"/>
+	<string key="case:DeclarationNumber_11" value="[[declaration number 73587|declaration number 53369|declaration number 24079]]"/>
+	<string key="case:RequestedAmount_11" value="[[309|560|211.86588743998144|459]]"/>
+	<string key="case:DeclarationNumber_16" value="[[declaration number 73597]]"/>
+	<string key="case:DeclarationNumber_15" value="[[declaration number 73595]]"/>
+	<string key="case:DeclarationNumber_8" value="[[declaration number 73581|declaration number 53363|declaration number 57200|declaration number 45636]]"/>
+	<string key="case:DeclarationNumber_9" value="[[declaration number 73583|declaration number 53365|declaration number 45638]]"/>
+	<string key="case:DeclarationNumber_4" value="[[declaration number 73573|declaration number 76939|declaration number 72432|declaration number 80549|declaration number 80129|UNKNOWN|declaration number 83802|declaration number 81236|declaration number 84357|declaration number 4547|declaration number 53355|declaration number 64106|declaration number 64243|declaration number 66606|declaration number 66021|declaration number 7622|declaration number 2513|declaration number 6497|declaration number 3110|declaration number 9996|declaration number 27416|declaration number 44518|declaration number 32388|declaration number 15191|declaration number 45629|declaration number 45683|declaration number 13805|declaration number 45157|declaration number 32186|declaration number 36663|declaration number 37796|declaration number 28652|declaration number 71447|declaration number 56149|declaration number 62681|declaration number 63689|declaration number 19323|declaration number 67428|declaration number 10241|declaration number 10395]]"/>
+	<string key="case:DeclarationNumber_5" value="[[declaration number 73575|declaration number 80551|declaration number 4549|declaration number 53357|declaration number 64245|declaration number 66608|UNKNOWN|declaration number 2515|declaration number 13807|declaration number 42545|declaration number 33333|declaration number 47330|declaration number 25694|declaration number 62161|declaration number 64575|declaration number 63691|declaration number 67430]]"/>
+	<string key="case:DeclarationNumber_6" value="[[declaration number 73577|declaration number 4551|declaration number 53359|declaration number 64247|UNKNOWN|declaration number 57196|declaration number 45632|declaration number 28773|declaration number 56152|declaration number 64577|declaration number 67432]]"/>
+	<string key="case:DeclarationNumber_7" value="[[declaration number 73579|declaration number 53361|declaration number 57198|declaration number 45634|UNKNOWN]]"/>
+	<string key="case:RequestedAmount_4" value="[[612|261|1,213|114|629||58|83|1,097|154|497|40|429|150|809|617|187|42.8776200771391|1,237|182|46|436|189.84836525711967|322|184|1222.2111220443246|1,061|100|4,595|94|14.835498114534866|1529.6941612156963|1274.2061818014645|405|228|1891.970585092941|444|133|95.18216648157697|2,149|222.43615082220964|35|461.73288902511484|846.7630998160236|17|239|23|495|342]]"/>
+	<string key="case:DeclarationNumber_1" value="[[string values]]"/>
+	<string key="case:RequestedAmount_3" value="[[string values]]"/>
+	<string key="case:DeclarationNumber_2" value="[[string values]]"/>
+	<string key="case:RequestedAmount_2" value="[[string values]]"/>
+	<string key="case:RequestedAmount_1" value="[[string values]]"/>
+	<string key="case:DeclarationNumber_3" value="[[string values]]"/>
+	<string key="case:RequestedAmount_8" value="[[17|419|73.98491307427923|211|149.5475232757238|104]]"/>
+	<string key="case:RequestedAmount_7" value="[[170|298|1386.3763824941643|33|585.9543866530632|104|]]"/>
+	<string key="case:RequestedAmount_6" value="[[341|77|566|294||154.6957273371293|1,239|76.13328457673211|120|494|163|250|79]]"/>
+	<string key="case:RequestedAmount_5" value="[[623|169|70|253|366|130||465|43.718357725710455|436.0253663597584|62.53805518802995|838|277|790|651|296|101.8227827477335|399|800|23|48]]"/>
+	<string key="case:RequestedAmount_9" value="[[232|567|981.9815735313425|338.5212117786839|118]]"/>
+	<string key="case:dec_id_16" value="[[declaration 73596]]"/>
+	<string key="case:dec_id_13" value="[[declaration 73590|declaration 53372]]"/>
+	<string key="case:dec_id_12" value="[[declaration 73588|declaration 53370]]"/>
+	<string key="case:dec_id_15" value="[[declaration 73594]]"/>
+	<string key="case:dec_id_14" value="[[declaration 73592]]"/>
+	<string key="case:dec_id_11" value="[[declaration 73586|declaration 53368|declaration 24078]]"/>
+	<string key="case:dec_id_10" value="[[declaration 73584|declaration 53366]]"/>
+	<string key="case:RfpNumber_0" value="[[string values]]"/>
+	<string key="case:OrganizationalEntity_0" value="[[organizational unit 65463|organizational unit 65458|organizational unit 65476|organizational unit 65457|organizational unit 65454|organizational unit 65456|organizational unit 65469|organizational unit 65461|organizational unit 65468|organizational unit 65465|organizational unit 65475|organizational unit 65462|organizational unit 65478|organizational unit 65471|organizational unit 65472|organizational unit 65485|organizational unit 65481|organizational unit 65487|organizational unit 65466|organizational unit 65455|organizational unit 65482]]"/>
+	<string key="case:Rfp_id_0" value="[[string values]]"/>
+	<float key="case:Cost Type_0" value="[[float values]]"/>
+	<string key="case:Activity_0" value="[[UNKNOWN|activity 505|activity 13776|activity 22452|activity 21016]]"/>
+	<string key="case:Task_0" value="[[string values]]"/>
+	<string key="case:Project_0" value="[[project 503]]"/>
+	<string key="case:Activity_1" value="[[activity 505|UNKNOWN|activity 13776]]"/>
+	<string key="case:Activity_3" value="[[activity 505|UNKNOWN]]"/>
+	<string key="case:Activity_2" value="[[activity 505|UNKNOWN]]"/>
+	<float key="case:Cost Type_3" value="[[float values]]"/>
+	<float key="case:Cost Type_2" value="[[float values]]"/>
+	<string key="case:RfpNumber_2" value="[[string values]]"/>
+	<string key="case:RfpNumber_3" value="[[request for payment number 76937|request for payment number 72430|request for payment number 80547|request for payment number 80127|request for payment number 84355|request for payment number 4545|request for payment number 9356|request for payment number 7620|request for payment number 22786|request for payment number 6495|request for payment number 3108|request for payment number 9994|request for payment number 57190|request for payment number 44516|request for payment number 24063|request for payment number 42541|request for payment number 33329|request for payment number 47326|UNKNOWN|request for payment number 36661|request for payment number 25690|request for payment number 37794|request for payment number 28650|request for payment number 28767|request for payment number 71445|request for payment number 56147|request for payment number 62157|request for payment number 64571|request for payment number 20338|request for payment number 19321|request for payment number 67426|request for payment number 10393|request for payment number 28817]]"/>
+	<string key="case:RfpNumber_1" value="[[string values]]"/>
+	<string key="case:OrganizationalEntity_1" value="[[organizational unit 65457|organizational unit 65458|organizational unit 65463|organizational unit 65476|organizational unit 65454|organizational unit 65465|organizational unit 65461|organizational unit 65462|organizational unit 65456|organizational unit 65469|organizational unit 65468|organizational unit 65475|organizational unit 65472]]"/>
+	<float key="case:Cost Type_1" value="[[float values]]"/>
+	<string key="case:OrganizationalEntity_2" value="[[organizational unit 65457|organizational unit 65458|organizational unit 65463|organizational unit 65476|organizational unit 65454|organizational unit 65465|organizational unit 65461|organizational unit 65462|organizational unit 65456|organizational unit 65468|organizational unit 65469|organizational unit 65475|organizational unit 65472]]"/>
+	<string key="case:OrganizationalEntity_3" value="[[organizational unit 65457|organizational unit 65463|organizational unit 65476|organizational unit 65458|organizational unit 65462|organizational unit 65461|organizational unit 65465|organizational unit 65454|organizational unit 65456|organizational unit 65469]]"/>
+	<string key="case:Project_2" value="[[project 503]]"/>
+	<string key="case:Project_3" value="[[project 503]]"/>
+	<string key="case:Task_1" value="[[string values]]"/>
+	<string key="case:Rfp_id_3" value="[[request for payment 76936|request for payment 72429|request for payment 80546|request for payment 80126|request for payment 84354|request for payment 4544|request for payment 9355|request for payment 7619|request for payment 22785|request for payment 6494|request for payment 3107|request for payment 9993|request for payment 57189|request for payment 44515|request for payment 24062|request for payment 42540|request for payment 33328|request for payment 47325|request for payment 32184|request for payment 36660|request for payment 25689|request for payment 37793|request for payment 28649|request for payment 28766|request for payment 71444|request for payment 56146|request for payment 62156|request for payment 64570|request for payment 20337|request for payment 19320|request for payment 67425|request for payment 10392|request for payment 28816]]"/>
+	<string key="case:Rfp_id_1" value="[[string values]]"/>
+	<string key="case:Project_1" value="[[project 503]]"/>
+	<string key="case:Rfp_id_2" value="[[string values]]"/>
+	<string key="case:Task_3" value="[[task 6280|task 72083|task 75336|task 80121|UNKNOWN|task 22780|task 6489|task 3102|task 9988|task 26863|task 44510|task 14416|task 33323|task 20119|task 28761|task 71439|task 56141|task 62151|task 64565|task 10387|task 19315|task 10542|task 28811]]"/>
+	<string key="case:Task_2" value="[[string values]]"/>
+	<string key="case:Rfp_id_10" value="[[request for payment 22798|request for payment 24076]]"/>
+	<string key="case:Rfp_id_11" value="[[request for payment 22800]]"/>
+	<string key="case:Rfp_id_12" value="[[request for payment 22802]]"/>
+	<string key="case:Rfp_id_13" value="[[request for payment 22804]]"/>
+	<string key="case:Rfp_id_14" value="[[request for payment 22806]]"/>
+	<string key="case:Project_11" value="[[project 503]]"/>
+	<string key="case:Project_12" value="[[project 503]]"/>
+	<string key="case:Project_10" value="[[project 503]]"/>
+	<string key="case:Project_13" value="[[project 503]]"/>
+	<string key="case:Project_14" value="[[project 503]]"/>
+	<float key="case:Cost Type_7" value="[[float values]]"/>
+	<float key="case:Cost Type_6" value="[[float values]]"/>
+	<float key="case:Cost Type_9" value="[[float values]]"/>
+	<float key="case:Cost Type_8" value="[[float values]]"/>
+	<float key="case:Cost Type_5" value="[[float values]]"/>
+	<float key="case:Cost Type_4" value="[[float values]]"/>
+	<string key="case:OrganizationalEntity_8" value="[[organizational unit 65465|organizational unit 65454]]"/>
+	<string key="case:OrganizationalEntity_9" value="[[organizational unit 65465|organizational unit 65454]]"/>
+	<string key="case:Task_10" value="[[task 22780|task 14416]]"/>
+	<string key="case:OrganizationalEntity_6" value="[[organizational unit 65465|organizational unit 65454]]"/>
+	<string key="case:Task_11" value="[[task 22780]]"/>
+	<string key="case:OrganizationalEntity_7" value="[[organizational unit 65465|organizational unit 65454]]"/>
+	<string key="case:Task_12" value="[[task 22780]]"/>
+	<string key="case:Task_13" value="[[task 22780]]"/>
+	<string key="case:Task_14" value="[[task 22780]]"/>
+	<string key="case:RfpNumber_10" value="[[request for payment number 22799|request for payment number 24077]]"/>
+	<string key="case:RfpNumber_12" value="[[request for payment number 22803]]"/>
+	<string key="case:RfpNumber_11" value="[[request for payment number 22801]]"/>
+	<string key="case:OrganizationalEntity_4" value="[[organizational unit 65465|organizational unit 65461|organizational unit 65454|organizational unit 65456|organizational unit 65469]]"/>
+	<string key="case:Project_6" value="[[project 503]]"/>
+	<string key="case:RfpNumber_14" value="[[request for payment number 22807]]"/>
+	<string key="case:OrganizationalEntity_5" value="[[organizational unit 65465|organizational unit 65461|organizational unit 65454|organizational unit 65469]]"/>
+	<string key="case:Project_7" value="[[project 503]]"/>
+	<string key="case:RfpNumber_13" value="[[request for payment number 22805]]"/>
+	<string key="case:Project_8" value="[[project 503]]"/>
+	<string key="case:Project_9" value="[[project 503]]"/>
+	<string key="case:Project_4" value="[[project 503]]"/>
+	<string key="case:Project_5" value="[[project 503]]"/>
+	<string key="case:Activity_12" value="[[activity 505]]"/>
+	<string key="case:Activity_11" value="[[activity 505]]"/>
+	<string key="case:Activity_14" value="[[activity 505]]"/>
+	<string key="case:Activity_13" value="[[activity 505]]"/>
+	<string key="case:Activity_10" value="[[activity 505]]"/>
+	<string key="case:OrganizationalEntity_14" value="[[organizational unit 65465]]"/>
+	<string key="case:OrganizationalEntity_13" value="[[organizational unit 65465]]"/>
+	<string key="case:RfpNumber_8" value="[[request for payment number 22795|request for payment number 24073]]"/>
+	<string key="case:RfpNumber_9" value="[[request for payment number 22797|request for payment number 24075]]"/>
+	<string key="case:RfpNumber_6" value="[[request for payment number 22792|request for payment number 24069]]"/>
+	<string key="case:RfpNumber_7" value="[[UNKNOWN|request for payment number 24071]]"/>
+	<string key="case:RfpNumber_4" value="[[request for payment number 22788|request for payment number 57192|request for payment number 24065|request for payment number 42543|request for payment number 33331|request for payment number 47328|request for payment number 25692|request for payment number 28769|request for payment number 62159|request for payment number 64573|request for payment number 20340]]"/>
+	<string key="case:RfpNumber_5" value="[[request for payment number 22790|request for payment number 57194|request for payment number 24067|request for payment number 28771]]"/>
+	<string key="case:OrganizationalEntity_12" value="[[organizational unit 65465]]"/>
+	<string key="case:OrganizationalEntity_11" value="[[organizational unit 65465]]"/>
+	<string key="case:OrganizationalEntity_10" value="[[organizational unit 65465|organizational unit 65454]]"/>
+	<string key="case:Rfp_id_7" value="[[request for payment 22793|request for payment 24070]]"/>
+	<string key="case:Rfp_id_8" value="[[request for payment 22794|request for payment 24072]]"/>
+	<string key="case:Rfp_id_5" value="[[request for payment 22789|request for payment 57193|request for payment 24066|request for payment 28770]]"/>
+	<string key="case:Rfp_id_6" value="[[request for payment 22791|request for payment 24068]]"/>
+	<string key="case:Rfp_id_4" value="[[request for payment 22787|request for payment 57191|request for payment 24064|request for payment 42542|request for payment 33330|request for payment 47327|request for payment 25691|request for payment 28768|request for payment 62158|request for payment 64572|request for payment 20339]]"/>
+	<string key="case:Rfp_id_9" value="[[request for payment 22796|request for payment 24074]]"/>
+	<string key="case:Activity_9" value="[[activity 505]]"/>
+	<string key="case:Activity_8" value="[[activity 505]]"/>
+	<string key="case:Activity_5" value="[[activity 505]]"/>
+	<string key="case:Activity_4" value="[[activity 505|UNKNOWN]]"/>
+	<string key="case:Activity_7" value="[[activity 505]]"/>
+	<string key="case:Activity_6" value="[[activity 505]]"/>
+	<float key="case:Cost Type_13" value="[[float values]]"/>
+	<float key="case:Cost Type_14" value="[[float values]]"/>
+	<float key="case:Cost Type_10" value="[[float values]]"/>
+	<float key="case:Cost Type_11" value="[[float values]]"/>
+	<float key="case:Cost Type_12" value="[[float values]]"/>
+	<string key="case:Task_5" value="[[task 22780|task 26863|task 14416|task 28761]]"/>
+	<string key="case:Task_4" value="[[task 22780|task 26863|task 14416|UNKNOWN|task 33323|task 20119|task 28761|task 62151|task 64565|task 10387]]"/>
+	<string key="case:Task_9" value="[[task 22780|task 14416]]"/>
+	<string key="case:Task_8" value="[[task 22780|task 14416]]"/>
+	<string key="case:Task_7" value="[[task 22780|task 14416]]"/>
+	<string key="case:Task_6" value="[[task 22780|task 14416]]"/>
+</trace_attributes_template>
+<event_attributes_template>
+	<string key="id" value="[[string values]]"/>
+	<string key="org:resource" value="[[STAFF MEMBER|SYSTEM]]"/>
+	<string key="concept:name" value="[[Start trip|End trip|Permit SUBMITTED by EMPLOYEE|Permit FINAL_APPROVED by SUPERVISOR|Declaration SUBMITTED by EMPLOYEE|Declaration FINAL_APPROVED by SUPERVISOR|Request Payment|Payment Handled|Permit SAVED by EMPLOYEE|Permit APPROVED by SUPERVISOR|Permit FINAL_APPROVED by DIRECTOR|Declaration APPROVED by PRE_APPROVER|Declaration APPROVED by ADMINISTRATION|Permit APPROVED by PRE_APPROVER|Declaration REJECTED by PRE_APPROVER|Declaration REJECTED by EMPLOYEE|Declaration SAVED by EMPLOYEE|Send Reminder|Permit REJECTED by MISSING|Permit REJECTED by SUPERVISOR|Permit REJECTED by EMPLOYEE|Request For Payment SUBMITTED by EMPLOYEE|Request For Payment FINAL_APPROVED by SUPERVISOR|Request For Payment APPROVED by PRE_APPROVER|Declaration REJECTED by MISSING|Declaration APPROVED by SUPERVISOR|Declaration FINAL_APPROVED by DIRECTOR|Permit REJECTED by PRE_APPROVER|Declaration REJECTED by DIRECTOR|Declaration REJECTED by SUPERVISOR|Request For Payment REJECTED by PRE_APPROVER|Request For Payment REJECTED by EMPLOYEE|Request For Payment REJECTED by MISSING|Permit APPROVED by ADMINISTRATION|Request For Payment REJECTED by SUPERVISOR|Request For Payment APPROVED by SUPERVISOR|Request For Payment FINAL_APPROVED by DIRECTOR|Declaration APPROVED by BUDGET OWNER|Request For Payment SAVED by EMPLOYEE|Declaration REJECTED by ADMINISTRATION|Permit APPROVED by BUDGET OWNER|Permit REJECTED by ADMINISTRATION|Declaration REJECTED by BUDGET OWNER|Request For Payment APPROVED by ADMINISTRATION|Permit REJECTED by BUDGET OWNER|Request For Payment APPROVED by BUDGET OWNER|Request For Payment REJECTED by ADMINISTRATION|Request For Payment REJECTED by BUDGET OWNER|Permit FOR_APPROVAL by ADMINISTRATION|Permit REJECTED by DIRECTOR|Permit FOR_APPROVAL by SUPERVISOR]]"/>
+	<date key="time:timestamp" value="[[timestamp values]]"/>
+	<string key="org:role" value="[[EMPLOYEE|SUPERVISOR|UNDEFINED|DIRECTOR|PRE_APPROVER|ADMINISTRATION|MISSING|BUDGET OWNER]]"/>
+</event_attributes_template>

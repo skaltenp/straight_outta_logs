@@ -1,0 +1,11 @@
+<trace_attribute_template>
+	<date key="case:REG_DATE" value="[[timestamp values]]"/>
+	<string key="case:concept:name" value="[[string name values]]"/>
+	<string key="case:AMOUNT_REQ" value="[[string values]]"/>
+</trace_attributes_template>
+<event_attributes_template>
+	<string key="org:resource" value="[[string values]]"/>
+	<string key="lifecycle:transition" value="[[COMPLETE|SCHEDULE|START]]"/>
+	<string key="concept:name" value="[[A_SUBMITTED|A_PARTLYSUBMITTED|A_PREACCEPTED|W_Completeren aanvraag|A_ACCEPTED|O_SELECTED|A_FINALIZED|O_CREATED|O_SENT|W_Nabellen offertes|O_SENT_BACK|W_Valideren aanvraag|A_REGISTERED|A_APPROVED|O_ACCEPTED|A_ACTIVATED|O_CANCELLED|A_DECLINED|A_CANCELLED|W_Afhandelen leads|O_DECLINED|W_Nabellen incomplete dossiers|W_Beoordelen fraude|W_Wijzigen contractgegevens]]"/>
+	<date key="time:timestamp" value="[[timestamp values]]"/>
+</event_attributes_template>

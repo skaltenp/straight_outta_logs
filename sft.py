@@ -114,8 +114,8 @@ class ScriptArguments:
     seq_length: Optional[int] = field(default=4096, metadata={"help": "the sequence length"})
     max_steps: Optional[int] = field(default=-1, metadata={"help": "the maximum number of sgd steps"})
     num_train_epochs: Optional[int] = field(default=1, metadata={"help": "the number of train epochs"})
-    per_device_train_batch_size: Optional[int] = field(default=1, metadata={"help": "the per device train batch size"})
-    per_device_eval_batch_size: Optional[int] = field(default=1, metadata={"help": "the per device eval batch size"})
+    per_device_train_batch_size: Optional[int] = field(default=8, metadata={"help": "the per device train batch size"})
+    per_device_eval_batch_size: Optional[int] = field(default=8, metadata={"help": "the per device eval batch size"})
     gradient_accumulation_steps: Optional[int] = field(default=1, metadata={"help": "the gradient accumulation steps"})
     gradient_checkpointing: Optional[bool] = field(default=True, metadata={"help": "whether to use gradient checkpointing"})
 

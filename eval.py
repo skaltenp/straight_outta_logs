@@ -25,12 +25,12 @@ def secure_listdir(path, rm_dirs=[".ipynb_checkpoints", ]):
             path_list.remove(rm_dir)
     return path_list
 
-def prepare_sample_text(example, tokenizer, start=None, end=None):
+def prepare_sample_text(example, tokenizer, configs, start=None, end=None):
     """Prepare the text from a sample of the dataset."""
     thread = example["event_list"]
     if start != None and end != None:
         thread = thread[start:end]
-    text = ""
+    text = f"{configs[example['file']]}{tokenizer.eos_token}\n"
     for message in thread:
         text += f"{message}{tokenizer.eos_token}\n"
     return text
@@ -39,14 +39,20 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--model_name", 
-        default="skaltenp/Meta-Llama-3-8B-sepsis_cases-cv_split0", 
+        default="skaltenp/Qwen3-1.7B-Base-global_event_logs-cv_split0", 
         help="hf model name",
         type=str
     )
     parser.add_argument(
         "--dataset_name", 
-        default="skaltenp/sepsis_cases",
+        default="skaltenp/global_event_logs",
         help="hf dataset name",
+        type=str
+    )
+    parser.add_argument(
+        "--filter", 
+        default="",
+        help="dataset filter",
         type=str
     )
     parser.add_argument(
@@ -127,11 +133,21 @@ if __name__ == "__main__":
         path=args.dataset_name,
         name=args.fold_name,
         token=True,
-        download_mode='force_redownload',
+        #download_mode='force_redownload',
     )
 
+    if args.filter != "":
+        dataset = dataset.filter(lambda x: x["file"] == args.filter)
+    
+    configs = {}
+    for file in os.listdir(os.path.join("configs", args.fold_name)):
+        file_path = os.path.join("configs", args.fold_name, file)
+        with open(file_path, "r") as f:
+            file_content = f.read()
+            configs[file.replace(".xml", ".xes")] = file_content
+
     tokenizer = AutoTokenizer.from_pretrained(
-        model_name, 
+        args.model_name, 
         use_fast=True,
     )
     tokenizer.model_max_length = args.max_input_size
@@ -145,7 +161,7 @@ if __name__ == "__main__":
         bnb_4bit_compute_dtype=torch.float16,
     )
     model = AutoPeftModelForCausalLM.from_pretrained(
-        model_name, 
+        args.model_name, 
         quantization_config=bnb_config,
         device_map=args.device, 
         torch_dtype=torch.float16,
@@ -180,19 +196,23 @@ if __name__ == "__main__":
     st_start = time.time()
     for example in tqdm(dataset["test"]):
         st = time.time()
-        res = prepare_sample_text(example, tokenizer)
+        res = prepare_sample_text(example, tokenizer, configs)
+        res = res.replace(configs[example["file"]], "")
         inp = ""
-        inp += prepare_sample_text(example, tokenizer, start=0, end=1)
+        inp += prepare_sample_text(example, tokenizer, configs, start=0, end=1)
         event_counter = 0
         event_times.append([counter, event_counter, 0])
         with open(target_predicted_path, "a") as xes_file:
-            inp = inp.replace(tokenizer.bos_token, "")
+            try:
+                inp = inp.replace(tokenizer.bos_token, "")
+            except Exception as e:
+                print("Error: Could not replace bos token")
             inp = inp.replace(tokenizer.eos_token, "")
-            xes_file.write(inp)
+            xes_file.write(inp.replace(configs[example["file"]], ""))
         
         for i in tqdm(range(1, len(example["event_list"]))):
             event_start_time = time.time()
-            inp = prepare_sample_text(example, tokenizer, start=0, end=i)
+            inp = prepare_sample_text(example, tokenizer, configs, start=0, end=i)
             if args.print:
                 print(f"##### INPUT UP TO {i-1} #####")
                 print(inp)
@@ -219,6 +239,8 @@ if __name__ == "__main__":
                 print("-" * 25)
                 print("-" * 25)
                 print()
+            
+            inp = inp.replace(configs[example["file"]], "")
             with open(target_predicted_path, "a") as xes_file:
                 xes_file.write(inp)
             event_time = time.time() - event_start_time
@@ -230,7 +252,10 @@ if __name__ == "__main__":
             with open(target_predicted_path, "a") as xes_file:
                 xes_file.write(f"\t{args.tctag}\n")
         with open(target_true_path, "a") as xes_file:
-            res = res.replace(tokenizer.bos_token, "")
+            try:
+                res = res.replace(tokenizer.bos_token, "")
+            except Exception as e:
+                print("Error: Could not replace bos token")
             res = res.replace(tokenizer.eos_token, "")
             xes_file.write(res)
         counter += 1

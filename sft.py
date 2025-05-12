@@ -61,17 +61,6 @@ def prepare_sample_text(example, tokenizer, configs, prefix_length=5, start=None
         text += text_sample + "\n"
     return text
 
-# def prepare_sample_text(example, tokenizer, remove_indent=False, start=None, end=None):
-#     """Prepare the text from a sample of the dataset."""
-#     thread = example["event_list"]
-#     if start != None and end != None:
-#         thread = thread[start:end]
-#     text = ""
-#     for message in thread:
-#         text += f"{message}{tokenizer.eos_token}\n"
-#     return text
-
-
 def create_datasets(tokenizer, args, configs):
     dataset = load_dataset(
         args.dataset_name,
@@ -82,10 +71,9 @@ def create_datasets(tokenizer, args, configs):
     )
     test_dataset = dataset["test"] # DON'T use this for validation
     train_dataset = dataset["train"].train_test_split(test_size=0.2, seed=args.random_seed)
+    train_dataset = train_dataset.filter(lambda x: x["file"] not in ["helpdesk.xes", "sepsis_cases.xes"])
     valid_dataset = train_dataset["test"]
     train_dataset = train_dataset["train"]
-
-    print(train_dataset)
 
     chars_per_token = max(chars_token_ratio(train_dataset, tokenizer, configs), 3)
     print(f"The character to token ratio of the dataset is: {chars_per_token:.2f}")
@@ -96,7 +84,7 @@ def create_datasets(tokenizer, args, configs):
 
 @dataclass
 class ScriptArguments:
-    model_name: Optional[str] = field(default="Qwen/Qwen3-0.6B-Base", metadata={"help": "the model name"})
+    model_name: Optional[str] = field(default="Qwen/Qwen3-1.7B-Base", metadata={"help": "the model name"})
     report_to: Optional[str] = field(default="wandb", metadata={"help": "use 'wandb' to log with wandb"})
     random_seed: Optional[int] = field(default=42, metadata={"help": "random seed for model training"})
 
@@ -107,15 +95,15 @@ class ScriptArguments:
     logging_strategy: Optional[str] = field(default="steps", metadata={"help": "the logging strategy"})
     logging_steps: Optional[int] = field(default=1, metadata={"help": "the logging frequency"})
     save_strategy: Optional[str] = field(default="steps", metadata={"help": "the save strategy"})
-    save_steps: Optional[int] = field(default=0.25, metadata={"help": "the saving frequency"})
+    save_steps: Optional[int] = field(default=0.1, metadata={"help": "the saving frequency"})
     eval_strategy: Optional[str] = field(default="steps", metadata={"help": "the evaluation strategy"})
     eval_steps: Optional[int] = field(default=0.25, metadata={"help": "the eval frequency"})
     num_workers: Optional[int] = field(default=1, metadata={"help": "the workers for loading dataset"})
     seq_length: Optional[int] = field(default=4096, metadata={"help": "the sequence length"})
     max_steps: Optional[int] = field(default=-1, metadata={"help": "the maximum number of sgd steps"})
     num_train_epochs: Optional[int] = field(default=1, metadata={"help": "the number of train epochs"})
-    per_device_train_batch_size: Optional[int] = field(default=8, metadata={"help": "the per device train batch size"})
-    per_device_eval_batch_size: Optional[int] = field(default=8, metadata={"help": "the per device eval batch size"})
+    per_device_train_batch_size: Optional[int] = field(default=2, metadata={"help": "the per device train batch size"})
+    per_device_eval_batch_size: Optional[int] = field(default=2, metadata={"help": "the per device eval batch size"})
     gradient_accumulation_steps: Optional[int] = field(default=1, metadata={"help": "the gradient accumulation steps"})
     gradient_checkpointing: Optional[bool] = field(default=True, metadata={"help": "whether to use gradient checkpointing"})
 

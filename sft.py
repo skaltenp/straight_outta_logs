@@ -96,7 +96,7 @@ class ScriptArguments:
     logging_steps: Optional[int] = field(default=1, metadata={"help": "the logging frequency"})
     save_strategy: Optional[str] = field(default="steps", metadata={"help": "the save strategy"})
     save_steps: Optional[int] = field(default=0.1, metadata={"help": "the saving frequency"})
-    eval_strategy: Optional[str] = field(default="steps", metadata={"help": "the evaluation strategy"})
+    eval_strategy: Optional[str] = field(default="epoch", metadata={"help": "the evaluation strategy"})
     eval_steps: Optional[int] = field(default=0.25, metadata={"help": "the eval frequency"})
     num_workers: Optional[int] = field(default=1, metadata={"help": "the workers for loading dataset"})
     seq_length: Optional[int] = field(default=4096, metadata={"help": "the sequence length"})
